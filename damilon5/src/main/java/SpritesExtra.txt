@@ -1,0 +1,770 @@
+                                                                \n"+
+"                                                                \n"+
+"                           @@@@   @@@.                          \n"+
+"                        @@@@@@*Q&..@@@@@                        \n"+
+"                       00Q00WW* M:WWWM000W                      \n"+
+"                        00 .oo     oo  00                       \n"+
+"                             OM@    .                           \n"+
+"                         M:.Q0+:o *QQ. W                        \n"+
+"                          & @@@W@W@@@                           \n"+
+"                            M@+= :O@0                           \n"+
+"               .@W            WWM&W                             \n"+
+"               0.. @        QO    =00                           \n"+
+"                O .QOQ     M@W00O00W@M                          \n"+
+"                 o  o .M@@@Q@@@@Q@@@@Q@@@0 &                    \n"+
+"                @@.@  @@@@@@M@.  . @M@@@@@@@@@@                 \n"+
+"              .QMMO.M0&M@@@@@M@M W@Q@@@ .@@@@@@@W               \n"+
+"              @oQQQ00MWM@@@@@@@   @@@@ @:O.@@@@@0@              \n"+
+"             Q@=*MMO00::*@&&=&W   @@@@.M M @M@M@MM*             \n"+
+"           .M@M@:QQ=*:MM&    ==O00*Q@@@@@@@@M@M@@QO             \n"+
+"           M@@@&000Q  @@M@MMMM.     oO @@@@M M@@M@@@            \n"+
+"         .@@&MMM00M  -M@M@@@@QM WQ     W*MWM MM@@@@MM           \n"+
+"          @OOO0000  O0M@@@@@@@M   .. Q@@@W :  00OMM@@&          \n"+
+"          +000OO    o00&@@@@@@M   OoMWWWWW@@@@@@@@@@W.@         \n"+
+"                    .M@@M@@@@@W   M        +MWW@@@MM&M          \n"+
+"                     0W&@@@@@@&   @@@   M*+.  -MMQMQ0Q          \n"+
+"                     =O0W@W@@@M   @@MW  @OOW                    \n"+
+"                 Wo.*  OMMW@@@M   @@@M MO0O W-W                 \n"+
+"                  o-     0MQ0MM  :QMQQOQ  . * W                 \n"+
+"                  O    o * *  WQQQQ  *:     *OO                 \n"+
+"                   o   o * *  M   0  *.   .  O                  \n"+
+"                                                                \n"+
+"                                                                \n
+
+
+
+
+
+
+
+                                                                \n"+
+"                                                                \n"+
+"                               ==000 -                          \n"+
+"                          Q   ==@@@====O0                       \n"+
+"                       :@       @@@       =                     \n"+
+"                        @O: 0W@-&W@++Q@                         \n"+
+"                   @@@    @ +  ++@@@@                           \n"+
+"                   .@@      o    **  **                         \n"+
+"                  &@@@&   @o@   o@.  M@M&                       \n"+
+"                MWMMMMM    :@MWMQ @@@@&                         \n"+
+"                W@@@@@@      @MMW@@@@M                          \n"+
+"                O@@@@@Q      @ 0@@@W W                          \n"+
+"                O@@@@@      oMo    oW@                          \n"+
+"                oooo  *QO+ Q0OQ@@@@@@@@& =+*W                   \n"+
+"              .@o  oM@@@@@@@@MM@    @@@@@@@@@                   \n"+
+"              &oooooM@@@@@@@@@@&@ =@M@@W-*0@@@@@M               \n"+
+"             @ooooooMo@0@@@@@@@@@ =+@@@+   @@@@@@@              \n"+
+"             @ ooooo*0Oo@@@@@@@@@   @@@ MW @@@@@W@@&            \n"+
+"              @     OO o@@@@@@@@@   @@@@@@@@@W@@W@@@@           \n"+
+"               M@00 -  oo@@WW@@MM   @Q@@@&@@@o0MM@M@@Q@*        \n"+
+"                    @OooooooooM@M   @@oooooOOM:-MW@W0@M&@       \n"+
+"                     @oooM&@@@@@Q   Q@@@@@@@M @QO:&@@M@W        \n"+
+"                      @o0MM@@@@@M   Q@@@@@@MM   W0MMW+0Q0       \n"+
+"                      @Mo0MQ@@@@    =@@@@@&@Q     @oQWWM        \n"+
+"                      @oOMQQQ@@@     @@@@@@MQ    @MWWWQ0        \n"+
+"                      @@O0QQQWWM     @@@@@@MQ    MMMWQo         \n"+
+"                      @0o00QQQMW    .&MM@MMWO   @WWWW*          \n"+
+"                      .@@OOo00MW     M@MW000   .WWWW0           \n"+
+"                      @:   ooooo0OOOO00*  :.O@@M  M+            \n"+
+"                     @@         @   @   WWO :@@@WQ              \n"+
+"                     O          0&WWW    O&WQ @@W               \n"+
+"                     @=   =======  =======  WM                  \n
+
+
+
+                                                                \n"+
+"                                                                \n"+
+"                         O  @WQ**@@*OM@  o                      \n"+
+"                    M oW=@@W*+W&@@@M&+*0@@@ 0 M                 \n"+
+"               @     @@M+*****@Mo@o@@+****+oQ@    @             \n"+
+"             M @ @@@:@*******+M@O0O@W-*******W@@@@ @ 0          \n"+
+"           @@     =@@+++*****+ QMWW@ ******+=+W@O     @         \n"+
+"           @-@@   @M       .                   *@@ @@@*@        \n"+
+"         @ 0  o   &+     W  +++=    ++++ WW    +W  oo  Q @      \n"+
+"         @  @@     o+ WQ O                @ W :*     @@  @      \n"+
+"       @ @@           @.    Q@@     @@@    @@           @@ Q    \n"+
+"      @@  @            @  *W     WW    =    @          @  @@    \n"+
+"       @@@            @&  @o@ -&@@@W@ *O@& W&     :     @@@O    \n"+
+"     @@W WO     @     @@M @@@@@@@@@@@@@@@W0W@    @@  .  &M @@   \n"+
+"       @@      @@@W    .@M@@@@@@Q@W&@@@@@&&@    @@@@      @&    \n"+
+"     @@@ @@    @  W       W@@@@@@@@@@@@@@W     .@  @    @@ @@   \n"+
+"       @@                  M@@@@@WM@@@@@               * @@     \n"+
+"       @@ @O                QWW@@@@@@W @              O@  @Q    \n"+
+"         @       @@@      -*W0+ WWWM *W@Q             O @@      \n"+
+"         @@@@@   Q@@@     @@WWW*****WWW+@            @:@@       \n"+
+"            @@    @@@ @@@ ***=o@@@@@@:***@:@@&      :@          \n"+
+"                 @@@@o   +******+WW+***o* +   @@@               \n"+
+"            @@@*@@@@@@@@@O-=***      *** **o+o++. *@&@@         \n"+
+"         @@o*++.@@WWWWWMMO*++-      +=  **o*********=+O&@@      \n"+
+"         @o*oo*@@@@@@@@@@@*=o++++  +*+******@@@@@@o****.Q@.     \n"+
+"        @=*+  @@@@@WWWWQQW*****+    +******@&W0&WW ***:+**@Q    \n"+
+"       @@++@ @@@@@@W@@WMMW*****+    +******@@O@@O@ *** + @@@    \n"+
+"       @M=@* MM@@@@@@@@@@******=    +******+ @oo@-*** ++ @W@    \n"+
+"     @@@ -@**o W@WWWWWo-     **      **            :* +*+.OW@   \n"+
+"     @0* @.o :     +WWWMWWW@o**      **o*@o@**@@o@@*  ++++oO+@  \n"+
+"     * MM * oo    o**o*****oo**      *oo*@*M*@@@o@@*  + oo***@  \n"+
+"   .**@Q*o+  +     oo  oooO  **      **o  oooO:-ooOo   ***o+oo@ \n
+
+
+                                                                \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                            +++*++++                            \n"+
+"                        @W++++@@@@-++++:                        \n"+
+"                      @+++++++@@@Q++     @                      \n"+
+"                     . +    @.@@@@:O      *                     \n"+
+"                      +: M@0@@@@@MQQQQO  :                      \n"+
+"                        W   @@0+       M                        \n"+
+"                        @              M                        \n"+
+"                        @M@@+ Q@M*  QQ Q                        \n"+
+"                         M@@@@@Q**&@MQo                         \n"+
+"                   0      @@@@00QQ @QQ                          \n"+
+"                  @@M      o@@@@@@MM                            \n"+
+"                  @@M      0@WMMMM  +                           \n"+
+"                  @@Q   = Q=@@@@      +*                        \n"+
+"                 @@@@@W  + =++M@QQ++      QQ                    \n"+
+"               :@@QQQQQo+++ ++ +++=   =+++++  0W                \n"+
+"               @@@@@@@@O+++++  ++  +-:++++++++: +O              \n"+
+"            .  @@@@@@@@0++++++*   ++++@@@@Q+++++&@o             \n"+
+"           =* @@@@@@@@@=++++++ ++ ++++@@@M0++  +@M&@            \n"+
+"           .&.@@Q      ++++ ++ ++ ++++@MM@0+   *@@MW            \n"+
+"          MM+ oQ       @@@*=+++++-+++++        +- @@@           \n"+
+"        @++*+        -++++++  +++-+ ++++++++  +    + +          \n"+
+"       M+++                   +++=+               +++           \n"+
+"       .+  ++           +     +++=+    +            +           \n"+
+"          +=            ++    +++=++   +*          .            \n"+
+"                              ++++                              \n"+
+"                              ++++                              \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                                                \n
+
+   -              @           .                @                \n"+
+"                                                    @           \n"+
+"          Q@                              @                     \n"+
+"                                       +       @             @  \n"+
+"                            oW@@QW                 &W      =    \n"+
+"                          M@   . +        W              .      \n"+
+"                        . @@&  O=  @@@@:O   *         :       W \n"+
+"           -        :=@@@0      @W:@@@    &++@@Q@   @       @   \n"+
+"                  @- *@W *@@@@:@@@ &*  .@@@.  & + @             \n"+
+"       @        0@@QM:&0@   @.:@+&..=::@:&  =0=  .@@@M@         \n"+
+"             @*@@.   @@@@O@@-0@M: O@-@@@@ @  0@@ @@&&  Q    .@Q:\n"+
+"           *&@+  M      @  . @+0Q&@.o@@.*  . *M@@oM*0O     WO=.@\n"+
+"        : @+M           M O.  W@@. MQ@  0.:@@= @ 0@ O     W.0@M \n"+
+"       M M                * .@     @     @ @@ O M Q  @@@ @ &+@O&\n"+
+"   .@            @      @:       - W  Q + &. *- O  :@@@M@@@0@@  \n"+
+"                       @W@+-   @ @ .@.W W  :   Q    &@@@0@@@-&Q \n"+
+"                      &@@@@@=@+@:@=Q@       .@      O.::@=&Q&   \n"+
+"                    &@@ Q@ @  :@@  .Q                 *@@&W   + \n"+
+"      @           @@@@@@W@ 0*-0                     @-@@M&      \n"+
+"                @@ @@&@Q  0                        +.@@0& M     \n"+
+"              @+@@@ W* O                          @ @@o         \n"+
+"            : @@@=@- Q            M              M.:&           \n"+
+"          @.@@@&M  Q                            Q@* Q       @   \n"+
+"         @.@O@W Q        @     :&      -       *@ o             \n"+
+"        0@@0 Q                                &.:O              \n"+
+"                                             QQ:                \n"+
+"                                           @W           &       \n"+
+"                                                                \n"+
+"              :W                                             .  \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                                                \n
+
+             ..==&@                                            .\n"+
+"   . .       .oMQ.&@                                            \n"+
+"               .&M.@&                                          .\n"+
+"               .=*:@@                            @             .\n"+
+"                  &.M@        MM@@@.          ..&@@.            \n"+
+"                .*O=0M@    .M@@@@@@@@            @             .\n"+
+"                 ..MM.M@. .MW ++ &@@@@.                        .\n"+
+"         0      ..Q..&.M@ .W *oo*.@@M@Q0W&@..                  .\n"+
+"                =o-Q..M.. .. -++-=.@@M*.*++Qo..                .\n"+
+"              .&=. **..  ..M .00.. Mo+O*@@+Qo                  .\n"+
+"                -:-+M  .&M *Q....*O:O:M@@@@QO.   0              \n"+
+"            @   ..++M..MMQ* *MMQo::0.MM@@@@@   .@@@ .           \n"+
+"                 .-@@M.:M **ooQQoo.00.+*MMM      .           .  \n"+
+"                 .OMM@=*  *. ooo.:00QQ=.  MM@@.                .\n"+
+"                  M00:     ..** +.0.-00:.*:QO.OMW              .\n"+
+"         .           .     .: ++.-*=++:.:. .:&MM@.             .\n"+
+"              ..        :o .:.000:+ :MQ    .*@M@@               \n"+
+"                     . .*.+ ..M0Q*... ...   :0@@*               \n"+
+"                    ..-:QQ@O0.MWWO.*oO-Wo   .Q@@M               \n"+
+"                    :+MM@=0MOQ. -..*.+=*.  .==OOO              .\n"+
+"                     oMM@@Mo.=    :====..:.++M@@O              .\n"+
+"                  .M@@@M.MO:  .  :+0M.O*oQ.                    .\n"+
+"               @   *MoQM*        *MMM@QooM.                     \n"+
+"                    OO- **    M. -MM@@Mooo.                    .\n"+
+"           .           - **o  .  .+QMM+                        .\n"+
+"                        . =o. .W .  o@@:0                      .\n"+
+"                              .W..WOOoOMWo.                    .\n"+
+"                          .M  .WM .W.o**-. M    .               \n"+
+"                           W-   W .W     *.M                   .\n"+
+"                           0W   W  WM                           \n"+
+"                           MW   W- .W. M.M                      \n"+
+"                           .W   W- .W. W.M                      \n
+
+                @                                               \n"+
+"               .@                          .                    \n"+
+"               MWo                       @@@00                  \n"+
+"              .-*W         ..@@@@.       @@000                  \n"+
+"               .OM@       0&O@@@@&@.     -00                    \n"+
+"               ..O*0      Q  .O0  .@    .   :@:                 \n"+
+"             0&=.Qo@      Q      . .                            \n"+
+"              0==+ *o    .W.M.  -0-W=Q                          \n"+
+"               .=-oM@  .O.OO=MMMQM+Q.Qo00@.                     \n"+
+"             :O-=+    ..QO.      -:O+@&@=O=                     \n"+
+"              O 00.   M. &M@O&+:: =.*0@@&WQ                     \n"+
+"              *00.& .:.=QO    ..OW=.+:QOQO:                     \n"+
+"               .00-*@.. M*MW@@ OOO . Oo*.QO-                    \n"+
+"                 .0O*   O*MWWM*Q-.M*   o...Q:                   \n"+
+"                   +. ...*Q+&Wo:=O.*   WW&0..Q                  \n"+
+"             ..      .OQM+QWW0QMM.MQ  oQMWO  o o.               \n"+
+"                  .:  0QQ 000 oQ0 QQ  M@@o:   :.-               \n"+
+"         .      .-  -:  ooO&oQ. . . . :&&Q     .O.              \n"+
+"                O. @M+ : . 00Q-*o*.:@@@&M     ..oQ:             \n"+
+"             .O    @M+O0+QO   .oQQO   QQQ  .=  O  Q.            \n"+
+"             0.    .M+....    .**&&o-     ...O.: .              \n"+
+"            o. O    0=..O...    **oooo*    O.O.                 \n"+
+"         Q.. ..+..-   ..         Q MO@.  :.oo-oQ.               \n"+
+"            :0   :   .-W=.Q      Q.-+&0  .OO0Oo0Q.              \n"+
+"         .Q0.  .O: .  0QQ0.       Q@WOo   .QOQQ                 \n"+
+"              ..O oo  .QQ.          ** :.  OQQQQ...             \n"+
+"                OO    .******     *--O**+     QQQ..0o           \n"+
+"              .OQ:                  ****0      QQ.              \n"+
+"             .oQ       .  ++.        ++*o*   O  .QQ.            \n"+
+"                        :            ooQ0+       .Q             \n"+
+"                      .o              *+o*                      \n"+
+"                  &W&Q               . Q@@@O                    \n"+
+"                 OOOo+                OOOOOO-                   \n
+
+                                                                \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                     .@                         \n"+
+"            .@WWW@       @    .@@..         .-     W:           \n"+
+"          .WWOWWWWWW.  -    .@@@@&@@       W@@@.                \n"+
+"           oOooWOWQo       :@..W0&.&@                           \n"+
+"           oooooooo  Q&.   .&:0= 0= W                           \n"+
+"              ooo.        .M &.   Q+...        @                \n"+
+"         .           :  ..:00:.. :.00O...            .          \n"+
+"          @            .000ooOOooo.::0@@@:        ..W:.         \n"+
+"                  -.  .Q0000000MMM@@@MM&&W          W.          \n"+
+"           .      .O  Q0o00ooM@QQ@@WW.:.:.   @:                 \n"+
+"                      o*..  :OO@@WOM-  +oo                      \n"+
+"           :O.    . 0-MM.   =:@:. :=   .-M=..       @           \n"+
+"         .WW@W    .o..@W=  :  M+++=.WW .WW@.O                   \n"+
+"                      @W*.=OMMo   =.o0.==W@ :.  :.              \n"+
+"                 .*   @W   ===.-0+OWQ.. 0W@ -o..                \n"+
+"         ..        .@.&=o .-+: ===.. :M==Q@  oo00.   &@         \n"+
+"         W@.     ..+@& o  OMMo+  .*oMo  OO  ..oo00oM---         \n"+
+"       .M     .=---Q&-Q  .@@OO    OW0@ .   .o.  ooO0O00.*       \n"+
+"            -=====@&+o.   ..W      OW.      :...  :+*-:o0O      \n"+
+"           . ====&@&++. .:O*:        OO     .*o.==..    .*.     \n"+
+"          :++..+Q&&+0o   M0M         OMQM    *ooO+=++           \n"+
+"         ++++++@@&++0  .OWWO         WW&@    .oooO0+++          \n"+
+"         +++++@&W+++.  -@WQ.         MMWW  .+..oo.+++++.        \n"+
+"       .+++++@&+++++++  @WO          OOW@  .++++++++++++        \n"+
+"       .+++o+++*o+O*+++    o+      ++.   .oo+oO+**+o++++        \n"+
+"      +*O+OOOOOOOOOOOo@&O0            .O@@OOOOOOOOOOOOO++*      \n"+
+"          *******OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*******          \n"+
+"                                                                \n"+
+"                                                                \n
+
+                                   *                            \n"+
+"          -   -@=                                               \n"+
+"                :Q                                          O   \n"+
+"                                                                \n"+
+"        O                 @@@@WQOOoO*       &                   \n"+
+" O  O o o               @@@&OOOOOOOoo-+                         \n"+
+"O O0OOOO* O           Q@@&O0OOOOOOooo++++                       \n"+
+" +OM@@M00:           .@@OO&QoOOOOOOoo* =+                       \n"+
+" +O00@@@MO+         @@@*-++++++++++++++++o*                     \n"+
+" .OO0&@@@Q0+=       o@&*M&&@@@&&&&&WMQQQ***                     \n"+
+"    +00@@@WQ0.       @@=+oWW&&&&&&&WMQQ+ o                      \n"+
+"    .0OQ@@&W0o        +OO +**W&&&&WMQ*. o                       \n"+
+"      =OQQMW&Q O    .@  @&OO+MW&&&MQ.ooo                        \n"+
+"         MO.  &     @@ + -00o 0MQQM o*+                         \n"+
+"          +0:O&  @@OWW .    + @QMQ& +                           \n"+
+"            ..Q0Wooo*-* .o               W&                     \n"+
+"           @@o+.&0*ooo oo               ooo=@W                  \n"+
+"         .oooW+0W. OQoo.oo              .+o=0Woo                \n"+
+"         Qoo*&*W  W* Wo* o        *o=oo   oo o .o               \n"+
+"         ooo0=Q.. &O  ooo o       ooooo   =o=  oo               \n"+
+"          +oo+M.+ *oo&    ooo *oo ooooo    oo                   \n"+
+"          ooo*O@   .Q o=      ooo ooooo**   o                   \n"+
+"        oo  &W  Q   *   oooo-              oo +oo+              \n"+
+"        o.**.o0     @  .**O+=.oooooooooooo o=   .o              \n"+
+"       .o.o+oo     0                       o   +oo              \n"+
+"  .     o.*++.    =           00* QQQQQ oo       o              \n"+
+"        -+       o*   ooOOO** oo*                oooQ           \n"+
+"                .o*o  ----   .oo=-oooooo         +  O*          \n"+
+"          oo      -           +=                 oo +*          \n"+
+"                  o                 .               oo          \n"+
+"                 o      .o  *MMMo QO*=+ oMo Q.   o   .o         \n"+
+"                     .   ++ *OOO  W -M=WO   M.   .  .ooo        \n
+
+
+                                                                \n"+
+"                      .                                         \n"+
+"              .   MM*                                           \n"+
+"            .*+Q+Q     .*o                                      \n"+
+"         M: +-= .WO-Qo        :@@@@@                            \n"+
+"     .O+.. ==Q+=             OM@@@@@@@                          \n"+
+"       =.Q+. =              :OM    @@@@               O-        \n"+
+"     +.                    OOQ W   . @@       :                 \n"+
+"                  Q        OO. o   . .@@                        \n"+
+"        .         M Q    :OQ   +      .@o                       \n"+
+"                        oo= OOo*   o&MQQ00.               .     \n"+
+"      .               OOOO.QQW+oM@@QQ&&QW@@&.          .        \n"+
+"                     +OMQM&WMoQM@@@MQQM@@@@@@                   \n"+
+"                    OQMQQ@MO    QQM@W@@@&@@@@@      .           \n"+
+"                   .MMM@@@Q =Oooo :QMM&M@@@@@@                  \n"+
+"                   OO@@@Q0  Q *+oooO..Q@@&WW@@@   o-            \n"+
+"                  OQ&@=    .o@&*- o0   0@@Q@QM@&                \n"+
+"                  OQO*0&@@  :*o0-0. :    W@M@@@W=               \n"+
+"                  QQ ++Oo Q&o  *.W  *.     @@@@@&               \n"+
+"                  OO      -O+ ++=:Q   O@*   =@@@M .     .       \n"+
+"                 OO        +o*:O ..=&. +  +oo.@@M      O&O      \n"+
+"        .    O   *O.              :+ *W-O o=0.O@&               \n"+
+"      .M@WQ     OO O   +++           .=*0&+oo+ O@               \n"+
+"               QM  QQ  ++O -           o**-W@  O@&              \n"+
+"            &      QQ   += oo+    . o=   ..++OO+@Q     :        \n"+
+"                - &MQ             :+Q@@o   ..o*-:@@:            \n"+
+"             &@@ Q&M+    o OQQ+   oo=OOoo   . -  =@             \n"+
+"             -  QQQ           .    oQQWWWo      .. M@           \n"+
+"          :    MM &       *O00+   +.     0      @o0@ =O:        \n"+
+"               @o   0     +++++    .M@@@@.     .& .@            \n"+
+"            .@@                    O+0MW0O    oM.  @            \n"+
+"          .                +++     +++++*+       &@             \n
+
+                                                                \n"+
+"                                                                \n"+
+"                              .**o                              \n"+
+"                .MOOW.        .OO.*                             \n"+
+"              . 0MMMMM    OOO =*.+ OOO   OO0QQo                 \n"+
+"               QM.   *WW     *=OOO++   .OQ-QQ-o                 \n"+
+"      :Q.&      ...          .=MWM       QQQOoMo                \n"+
+"   WW QQM&MM=   . M.O.    OQ**    + o    oQ0M O       OOOO      \n"+
+"      WM  .&&0M.o Q   o   O*oo=*o=oo o  &&  0@:M     o***+  .   \n"+
+"      0:Q0.  :O* O ..o    O*     :*  o*   MMM  &&&OOOWWWW0      \n"+
+"    .-..0&=  OO.o  :o O   OOOOooM*oOooo   Q@  M&&&   .0MMW*     \n"+
+"  .Q0*Q.::. *oOoOO..  *W    .==MW.-     M :     &&  Q-MW*o0o    \n"+
+" .OQo *oo0    O   W. .QM    **  * .o   WW =     M& .+O:OO 0:Q.  \n"+
+" . * ooo00    Q&M= -=o  :M: ooo   .o .&M +o0  -&MM   O.:MooOMM  \n"+
+" .M&=o* *  M:.* oo +++0:o-QQQQQ: *oo  MQo.&& .&Mo  . 0Q00o: OM0 \n"+
+"   Q& WW+&.    **:Q0QQ.0OOQQQQQO0Qo*         QW    :.QQ00oO.*M0 \n"+
+"  * W& O +o   oWWWM*QQ    MM&&:&&&Q0QQQ.          &.  *+o+  M0  \n"+
+"    *oo .**QQ 0W000 O0QQ&&@  :.&-  .&&&MQQQ.  WWM   o:o*=oM*O*  \n"+
+"   +oo+*QQQWW0.  .0MWW@:@=&&=&=&W:&& &.M&&&o.00WW0W ooo o     . \n"+
+"   *OoooMQQQ.     o &&&.@&& &.& .&&:.&&&& WWW:  .0QW O+  oo     \n"+
+"   *O     oW+=== Q & :&.&=&-&.&-&&&&: .&:&&0 . :WW.0M0QQQ oo    \n"+
+"   .o    .o=:o+.*+Wo W.Q=:=&: &&W&  &@&0Q..oQ Q ***Q=O o  +oo   \n"+
+"   .++  OO0==.o+ WQW  Q.W&&MMo&& @=QQQQQ0 :: Qooo**+  :    -*   \n"+
+"        OOQ===*0+ oQ&WQO-QQQQ0&oQM MM:Q0*.Q.000 ++ + QO   00    \n"+
+"           -+=== oo+       oo-00OQQQQ0QQ0.0OO  +++ + OO         \n"+
+"         .Qooo+++ 0            oo:QQQQooo    O.+++:* Q          \n"+
+"         WQ o Oo 00 OQ             OO.   .=MM0.*oo   QW         \n"+
+"          =0QQ00    =oO            .:    WQO0.  QQQQ+.          \n
+
+                                                                \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                      .                                         \n"+
+"                       oo00       00-0QQoo00                    \n"+
+"                    Q0.*.oo.0Q   Q00*-:.*+0Q                    \n"+
+"          :0:o.       0 -Q000     0000000Q         0OoQ         \n"+
+"       Q0.Moooo:      Q:-O.                     .ooooo. o       \n"+
+"          :0O..00 oO 0O0QQ0..     @  *o=  O.@@  0O*00o:         \n"+
+"        .oQWMQ    OOO00 QQ.Oo     @o   @OoOW@@    :WWOOM        \n"+
+"     @@O0W+ Q :  .oO =o0*oo0*    MM oo@OooO0@@M      -@oO+@     \n"+
+"    M@@@Oo*0Wo&  Oo  .o0o-oO    M&M OOoOO=  -o@   o@M.oO@@@@    \n"+
+"    @@@WO=O.oo&  *00 *OOo.oO o  .@@@ oOOOOO-@MM . oO+OoOQM@@    \n"+
+"   .@@M  oooooM   .O00 O&o o WW   -&M+Woo*@@W  :@:oO.ooo 0@@@   \n"+
+"   MW@   OoOOo@@      &W&@=* O*.  o=0:.Q=&M    QQ oO.ooW .Q@W   \n"+
+"    W&&.*oOo:o=@.   +    **O@:W   + ..o    oo.M&- o*Qoo  WM:    \n"+
+"     .W@o  -.0..&:&@.O*.  oo      .OO.  OOO*@+: * O &0.&WM      \n"+
+"       0WM-O.+.=    oQ@  oo     M  OoO. OOo@ Q  . .ooo:-M  .    \n"+
+"     W0:  : oo.     ooo  oO   .    -OO  =O&O=   Q.Q=-.oo:o+     \n"+
+"     OM oo  MO+    *oo   o          oOO  oOO     :Q0O ooo o     \n"+
+"     0.ooO  oo     *oO   .     .&&  oO    oO      oo   oo o     \n"+
+"      =oo  .o      oo 0    oM-- Q= +Wo  00Oo.      +*  *oo      \n"+
+"      oo    O o.   o-  :MoMW&OO-0--QMO MM oOO    . o    oo      \n"+
+"      oo 0   .     =o*  .ooW:W+&W*0W=MMM. oo  .    :o 0:oO.     \n"+
+"   .  o=    oO0QQQQ ooQQ.o *oo  ..MMMQ-W... 0QQ*=.oo    *o  .   \n"+
+"  .   oO   *Q:=0Q:Q0WMQQ *ooo. .0.MMMQM*  Q0:WQMM= oOQQ Oo   .  \n"+
+"   M.+ 00OQQ 0= M:  ==Q:& O  : .Q.oo    =.0=+WWMQ QQQ-0oo:.QQ   \n"+
+"        M0QQ.=.:o:QQ:O.o Q*.:  .  WO&M0.Q QoQ.*O 0QQQQ:QQ       \n"+
+"         *.0=QQM+QQ0M:*QQQQ:000QQ00Q0QQQMQ. O:QQ-M0             \n"+
+"               O +@Q *= == .-MQQ0:QQ:Q.QQQWQ0:Q0                \n"+
+"              &.   .M   o0-QQQQ   @ . 0   .                     \n"+
+"                              &                                 \n
+
+                          .. :.. :.                             \n"+
+"                    + + QMQQQQQQQQOO .                          \n"+
+"                  ..: OQQQQQQQQQQQQQo  :                        \n"+
+"                =++ -*0QOoQQQQQQQQQQQ o  ==                     \n"+
+"                :  :o000000Q000O000000==:                       \n"+
+"                . =o0QQ0000000000000000*o*                      \n"+
+"                +o OO0  0MM 000000000OOO o =      @00O          \n"+
+"    . -@Q.      +    .Q :O&-W.0OOOOOOOOOOo.o  .&WQ-:.@.         \n"+
+"   Q M@ :=.    .**oo..0 * .@@*oooooooO@@@@QQW@    @W0W .        \n"+
+"   MM*@ @M    +**ooo . :QQ .oooooooooo-@*&   Q     QO0:         \n"+
+"   :0Mo.QQ    .*-o O*WO    ooooooooooo O& . O=  &@QQ-:O.0 @.    \n"+
+" +MMO Q..+Q  =++oOQM--M oo:&oooooooooo*  0:M:  @ @.&&Q - @@@0   \n"+
+"OOOMQOOO+oM=&.-oo.Q00:QM+O MWoooooooo.OM&W:O.M@ * 0 M.oM* W@&   \n"+
+" -OMMMMM&-  &W *o  Q0O0*W-o WooooooooQW.o+MQ oMM. M=-  M0  MWM  \n"+
+".QWO   0O=   &.**o  OQQ@@   Wooo-@@@  .QQ MQ .QM:  Q W0     =&  \n"+
+"QMo0&@@&W .0*O -=o   .OOMOMMM @WM.@@@@oWM0Qo+ O0& +o0 -=   M&W  \n"+
+"O +O-OQ.WMQ : .  .         *O.:W&.  O QMM0M:.  0Q...: +Oo  WM   \n"+
+"    Q *0o.  0M . -     0W  .+oooo-* o=    MQM .Q0 :0  : &.MO    \n"+
+"  * o  @ &.. M  .    MOO:Q@QW+* +-==: M@@**   O0*  0OMO+ - 0.   \n"+
+"  -o+ M*:-o. M QW  O ..W.= QQ*        O00o0+..@@ *   O0O.Q:     \n"+
+"*O0&.O   OO  M  ::+M@.o.   0QM    .. O0  .oQQ .M:     OQ* o     \n"+
+"+OO  :    .QO    WWMQQQQ oQQ.o      .000  QQQ.o0.     :MQ Q     \n"+
+"o .0QQ   0QQo    M*W0QQO -0QQ        *OQ  o0Q0.0       OQ0.M    \n"+
+"O oQQ0  .OQ0o      :QQQ  OQQQ         .0O  0QQO         OQO.@   \n"+
+"M oQQ    O0 o      .QQ     QQ          0Q.  OOQO   .    0++  +  \n"+
+"M...     .:  M     :O0   .QMQ           Q*   .*Q     -    .. Q  \n"+
+"M. :M   o0Q00    Q OQ0   *QQQ          Q0MMOQ0 QM0       Q0O  W \n"+
+"  Q     .:MO0    Q O00   :0QQ            .    .Q  :      0MO    \n"+
+" =MO0   o.QM     Q.OQ0    OQQ           .Q  Q M0: . O     *O    \n"+
+"   o  QQ .0M   .Q  Q0 QQ     QMQQQQQ Q     . OQ.Q    .Q   O:    \n"+
+" o0Q        0MWQQQ :MQ      oOM0QQ.QQ0+@0  .Q-M           Q0    \n"+
+"                   OM&           Q.         .WQQ        .       \n
+
+                                                                \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                     ooo o                      \n"+
+"                     oo*oOoo         0+*.QM-:+   00M00          \n"+
+"                 oo+WW   WW=  *      0oOO-      OOo00OOo        \n"+
+"       .+o.OOO0    :  . .:QQQQ.      WQQWQ0** =        --Q.     \n"+
+"       ** *MMQQ+   .=Q-&&&&Q          *M...*    :..W:*..  0     \n"+
+"     . .&.M:MMQ    :O ..oM=         +   o@&.+O .oMWWOQ-+        \n"+
+"         O+Q+ *   :+  W@&Q  .   =*+oo*-*Q@O*O*oooQ0.0@          \n"+
+"        .& +o.   00 .O-.: W + o +*.0o00 && *..oo. WQ&@ oo000    \n"+
+"    .0Q00o& .:O 00-0*00OMWQ.00  * oO    .  o**ooo@:.& 00o0o00   \n"+
+"   0QOQ0Q:.&  O 000oo*oo + Mo0o    o    W     *o @W@.00 ooo00o  \n"+
+"  :QQQOO0QQ0& O 00Oo oo0 .  o *   :OOOOO0:    oo  .0o00.oo*o0Oo \n"+
+"  OQQQ O0oQoOQO 000o ooo0o.  o    .::*+ OOQQ.    oQoo0 o*   .0o \n"+
+" .QQQ. 000O OWo o000  ooo*    :oo  0MWMQ.OOOQ  : ooooo  *  o0oo \n"+
+"  OQQO  O0 .O O .oo*00*o* .. * -Mo  W&&&Q&  O    oW-o * o 00oo  \n"+
+"  .QQQ. =0O   o *  +oo00O    o  :    . .Q  o    *W  o  :QM o*  @\n"+
+"   0QQQ  -O= WQ *o    **MWW:    .&@ :QQ0 @@      -0.WO..0..+ &@O\n"+
+"    O-Q @Qoo*   &@ :    .:WQQM@@@@=oO*o0 W@@    .OOoo* *o @@OOO \n"+
+"    :M&@.0. -  0+: *:  . . ooo .   oo*oo  &@    o0    0*=.MM    \n"+
+"  WWO.  :Q-    .QQ ...oo  oooo     oo**o* W@W   o0o  o0Oo.00 *  \n"+
+"    W0  QQ0     +o.oO00   o*00       W::..@@ +  *0oo o0Oo.o     \n"+
+"        QQ0     +o o00o.  o000     O0+00*Q&&..  oOoo *00++*&    \n"+
+"        QQ=    +  *o00o   oo*o     0*  00o   o   o0-  0o =*& o  \n"+
+"        00o    .  oooO     ooo     0*- 00o       oo+  o0o oo    \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                                                \n"+
+"                                                                \n
+
+
+                                                                \n"+
+"        .       .                     Q         o  .       -    \n"+
+"     =         :.      o     &        O              W   .     W\n"+
+"        .:    O      -   :Q    @@@@&: .=@.  .     -. :@.        \n"+
+"      .@      @     0       .@@@@@@@@:&     @   -  :&@      *   \n"+
+"              @   .    @.   @@@@@@@.@@@  .    o   -.        -   \n"+
+"              O     W:      @@@@&@@@@@@     &   -&+    :    .   \n"+
+"     -&          :     &    :@:@@@@@@@    @   -&&               \n"+
+"      0+  W   .           :@*W  @@@:          +o*o.             \n"+
+"     -:O0QQ@.                         @     W*@o&&+o    .&M0oo  \n"+
+"    @M+o*oO0&W@       @@@.      M@&&&.    @@o:MMQ- .@    Q+&Qo= \n"+
+"    @.@-QO::&    &  @&WQQ.     .&WM0o&  .:M  .:   Q+   M0o.Qo-  \n"+
+"   + .@-&. .@.      &WM:00Q      @@. .-:O+-:Q&:  ::0.W=:0M@*&0o*\n"+
+" :@&WO.&.-: :0Mo    . -QO &    &@ Q-o=.Q: :=.OQMQQ :.M= - 0&. =:\n"+
+" MMMO*o . - Q@&0 .@*@W-: ..W0& M0Oo=O  Q&o.o.MQM&M  .@W-Q=MQO M=\n"+
+" 0-:* .*&-: +.&Q..&0-* :MQ ...&&+=o+@==.o   :O ...  WWM00-+QQO  \n"+
+".WMQO .o=W:&QOo.:-..QQ*MQM  0 W&M.0O.+  +0Q0  +:. @&0o .  ..    \n"+
+" :MQ@&-MWM=  -===.  .*-..  -* OQ+Q-MM&.@&QQ   -:..WM+Q.. Q&&*o:.\n"+
+" oOO+*:.oo  .   +@  0:**  &WW.Qo:QQ.MM:OO**OO QW:o . o:0QQ  @&. \n"+
+"        :-    :  @.O  W :&WM.= :O*.. QQ0  M:o0ooo.oQ  =.o.W  .0 \n"+
+"   & .0QQoQQQ.o  @.Q*. .::+:.-:oMW:o . . :MQQQ  .OOo . .=  .oo.Q\n"+
+"   &OQ*0Qo  *.:.  .M=+ QO..   QQOQOo.     . Q*: : .   0o0o o*QO \n"+
+"   MQQQoOo  o= o   =. ..=   0:M-. *QQoO.   Qo.:  +o   oQo-  O+WM\n"+
+"   QQQ*Oo*  o  o M&@o .::    Q.     O0o.. @&.    :M@W .Q*o   oQQ\n"+
+"  &ooooooo  o  o=M@W:  ..      ..    .   ..:   .. @@W. MO*   *Q=\n"+
+"  ooo +. O  O  .QM@@= Q:@@=&-=-*@@=&*@WO+-@@@@@M- @@@. :*.   +oo\n"+
+"  ooo = .   o   +:&@=QM@@& .--@ @.@@@.@. @@@@@@@Q & :. O*      O\n"+
+"          @@ -  *=&@-QM@&. .:@.@.@@ @@.. @ &.@@MQ.&@=. .QO:&:  .\n"+
+"    .       @@@M-M@M=&M@@..& .*@.@@@@@.:@&@@@.@&M.&@M.MW&@    : \n"+
+"           &@.@Qoo  =MMQ QQ=.oQM QQQQMQM:QQO  MQM-  -:M@@@@     \n"+
+"               0MMMQ                              MQMMM=        \n"+
+"                                                                \n
+
+
+                                                                \n"+
+"                                                                \n"+
+"  .              @                                  .           \n"+
+" O       @       . Q&&@@@@@@@@@@@@@@@@@@@@&+Q                   \n"+
+"        .   @@@@@@@- @@  *@@@@ @@Q .@@@  .  @.O@@@@..           \n"+
+"  .      W@@: =:* -@@@@@@.@. .W@:.@Q@ 0@@@@@@&@ @  -@@M   :     \n"+
+"   :     Q@@@@@@-= @@@=@@:@@@@@@@@@o@   :    @=W Q@@@@Q.0@o   . \n"+
+"        .o@@@@*W@@@@@@&&                &&@@@@@@@:@@@@M         \n"+
+"   &@@@@MM@@&o   -                                *@@@.O@@@@@   \n"+
+"  @ :W@@Q.   :      .        @       :   ..      &o  .M@@@. @   \n"+
+"   @@@@WW@0W&    .    .   O= .               .     WWW@W&@@@O   \n"+
+"      :                  -         &      *              .      \n"+
+"                    .         @Q +&.                     M   :  \n"+
+"      Q@@@@     .W@@@@       &=    -   .  &@@@W    :@@@@O       \n"+
+"     -W  0.    .M=&@-@  @    .+           .  .QW        W       \n"+
+"      Q0@@@@  .&Q:W. .            O::.    @@@.WM   -@@@WQ     = \n"+
+"    M&    Q&  .Oo0=@WOQ      *0W@ oQ OO  -- .-@@Q.@@@MWM.&M     \n"+
+"   MM@ @@@@@.  .MW=o0O.     0oOQ0O*O 0:  @@@&@@W  .@@@@@.=-     \n"+
+"   &@ M@WO.:&   QO:WW&&M.:=0=.O&QO0O 0=. QM@@W    MW&M@Q- @@    \n"+
+"   @@ M@&*Q :    O::0 Q.      OM@W0o Oo.       . @M&WM@@Q @@M   \n"+
+" . =@Q   o  .  . O-QQQ M  &     &*0o:M         . @W- M:.M @.    \n"+
+".  .M& @ @ @W .Q QQ==QQ:&    Q00 00+.   .M.0@@ O *.@-@&@M M     \n"+
+" :     .@@@@.  O+0Q  QQ   -  +0: =W-QO. .@M @@*=   @@M@@M -     \n"+
+"     W-@0M@o   0.++ oQQ   @+ OOo* 0O.O*  @@*.@MM   @@M.@M .     \n"+
+"     .M@ M@@   Q:Q  =OQ      00o    o    @M0 @@=   @@W @@W    & \n"+
+"     +WW:=@    o0Q   QQ      0OO*  00* -  &OM @*:  .@+ -@     @ \n"+
+"     M@@MM@     O0  OO0      Q0-+  O0-:   @M  *@.   @MM.@MQ     \n"+
+"      @  M&    O+   .O.      .o.    :.=   @M   &M   .&. @M      \n"+
+".0+=Q.&Q M@0QQQ 0QQQOoOO0QQQQ:- QQQQMo.QM @MQQ0@0 QQ@&+Q 0Q=-0++\n"+
+"Q0O  Q@    . Q. QQ   QQQQQ000+  MQQQQo QQQQo     oO.    @@  00QQ\n"+
+"  .   . . .:.   :.  . 0.     *==-=0:. : .M.   .      . . ..     \n"+
+"                                                                \n
+
+
+                            .*ooo:.                             \n"+
+"                         =&@@@@@@@@@W*                          \n"+
+"     o.        *         W@@@@@@@@@@@:                  o.      \n"+
+"-..   oO                W@@@@@@@@@@@@@0      .        o-.  ...& \n"+
+"   o. .-+0W:@          W&&@@@@@@@@@@&&&= W      ..:*+=o.:.+:    \n"+
+"     o-00 --==:*QMo   &&&&&@&&&&&&&@&&&&Q   MW*O====  0=..      \n"+
+"                     0&&&&&&&&&&&&&&&&&&&M                      \n"+
+"               .   .W&&&&&&&&&.. .&&&&&&&W-                     \n"+
+"    . W            WW&&&&&&&W @o*+.&&&&&&&&o                    \n"+
+"                  QWWW&@ &&W -:&   =&&&&WWWW-  -            .   \n"+
+"          .     .WWWWWW OWWWW0  M @WWWWWWWWWW*            @     \n"+
+"           =  .-M@=WWWW +W.Wo0.  .=WWWWWWWWW@@M        =        \n"+
+"     +Q@@@     :  .0WWW&oQ .+.M-Q..MWWWWWW0&W0.M     @@&O:   M  \n"+
+"o   ::         0:=:-WWW. & *0W+Q.OM+:WWWWW= .M .M   W    o   W. \n"+
+"-    :-:. Q --Q   -o=MW@+:  .+. .    MMMMM:M:   &=  W0M:: .: -. \n"+
+"o .@0&& W&..0Q=@@QO&@&W- ::  oQMQW&@  WW0@=:0*@.@0+:MM..&&&o . o\n"+
+". *W&W@@QWW+QW oQ-QQQ..M  O:    Q.o  *.+==W&-MM WW@@Q-0@@ W.-...\n"+
+"..0&  =+..+o@*Q00=*W. .QQQQQ       --M..  .. =Wo&@0..-oM  @&.   \n"+
+" -:. : Q .  ..  --.&-.&QQQQ   .O    WQQQ0O&o &   .  **M - ..-: .\n"+
+" .    o:&0O     o@@ : @QQQQQ         QQ.&&:&@O:    WQ&&M.   .   \n"+
+" *O  -O.0=&:  **o.**& *:QQQ    .    WQQ* @Q.0WM+  :..&o- . .0 ..\n"+
+"  o@ .O:.W&   0Q@.:M@Q=Q*0Q    QQ   WQW*-@W0 @MQ   =Q:-M+ .&*   \n"+
+"     O&0 =@ ..:W@ o+=@QO.=Q   oQQ   Q.:Q.-=:O@WQ.- @W .&Wo   .-.\n"+
+"*   -Q&+:&@   MW@  0W@QOQ0    .:+  oO0Q=.@M  :@Q:  @&Q @M*   .M0\n"+
+"-   .=& -W@   .M   -M&M+O:   *...  o. 0.-MO-  @*.  .WM @M:   =*:\n"+
+"-  o +O .W@ - o+   .0Q.=o-   .:0o  . o+=MM0   O* : @@O --    =.:\n"+
+"-   oM: M@  oO0@   .M&       :++*  o    @M**  .&O.  &W .W*.: =Oo\n"+
+"  ..=W :.O  oOM    .M&      *+=+=  Q..  @Mo    @MO. @=  &M.   : \n"+
+" Q .MW .0*.= M&=OO0:&WOOO:  ..::.  Q:O0O.WO OO-&W- +MQ. &W. Q:- \n"+
+"  +.*o    Q& o0  .0  -M&o. =WM+*=   o@.W-   o  WO:&0.   W* .:   \n"+
+"............. ...     . .. ...   .       ....   .  . . ...... ..\n"+
+"          @@ @..@&@.@.  @@  .@.&@  .o&.@@   @.@:@  .O           \n
+
+               .                                                \n"+
+"       Q      ..     .         &W               :=    W         \n"+
+"              MW   .          &@@W          .@     .            \n"+
+"     .WO                 &&@&@@@@@@&@&&                         \n"+
+"    Q0W          W   ..     W@@@@W@W        W     =    =        \n"+
+"    o0M   @        O&.W&    W&@W&@&M       &@M         .:       \n"+
+" OMMMQ0      &     .- @     &&*  o&&     M  W           .       \n"+
+"    -0OMQ           M@@0               o.*                      \n"+
+"  .+:OW& M&         QW@@    Qoo0       OQ.               .Q     \n"+
+" &0o*o&             ..oO&  *+@:@      0QQ   .@@W@        .+Q*   \n"+
+"   -W.               OW*+0  &+-&0    .0O+   0M:QM.o    .@0O     \n"+
+"  -W@o   Q@@W@:   O0   *0QQ&@@.  @     -MQ  Q+: OW     M-M      \n"+
+"  :WWW  o.MoWMo   :.   .*0*o.:@@@&@.   .QMMQ .   *-WMW0o.       \n"+
+"   *oQ-.MMW+&.MW   Wo=0 ..:  0@W0&@@W    .::&W0@W@@@@o          \n"+
+"    +*&&-@@MQM0-  ..* ..O  Mo&&&&@@@*Q     :MQM.  =o+M          \n"+
+"    W+**oM@@@@@@.: :Q&M :0o0MM .== Q .Q   .:+  : . =W+          \n"+
+"   :MO  MWMQQ@QQ-&@MW&Q.+: .*ooQQQo *@&OM@@.00:*WM0 :o          \n"+
+"   .MQ0oMMM   .* :Q QM  o0:*:W&@QM:0&&*.-=.Wo0&Q .-*@:&WM-      \n"+
+"    0Q0 .O0M&M&M  .o..    :-:QMo00o .0WOOQOMWo0@&@@&0O+0M+W     \n"+
+"    M:0WO&-@@W0&&   ..  Q-.Oo:oOQQOQ:o.:O0O+   &. .&0@MW@@QMW.  \n"+
+"   .M00   .Q@M&O    .   OW*o0QQo *0QQ-     o OoOQOMO*&W&:W0WW.  \n"+
+"        o&@&0MW@@&      O:.&@&O  *@@@@    .o0=:@oOQ=&W.=&&MQ.   \n"+
+"       =0W+&*.0MMW&@  +:+:=@@M    -M@@@  ..-OO -.0o  =-:  *     \n"+
+"       oWMQM   *M0MQ-    0@@@W     =M.@@. :.oo0WQWWWWQ..:       \n"+
+"       M&&M0     *=&WW  ..ooQ=     O=.@@*  OO:WWQ. MWWM0W       \n"+
+"       o+=:     Oo@WQ   OW0Qo        . .  .=+QW+0  Q &WM        \n"+
+"      .&QWQ    oQ.Q-    OQWM       &&MQ   .++&=0Q   0.W0        \n"+
+"     .0WW0    o+WW * . .QWW.       .W&&    o-+.M:   .=:W0       \n"+
+"     OM&:  0M..MMM@@@MMM@MM:QM@W   .Q&M     : +++O   OMQ0       \n"+
+"     O&&   QMoMMMMMM&MMM@MWM&M@W    Q@@    oo  QM0Q   QWW0      \n"+
+"     0M@   O0O@MMMMMWMMM@MM MM@*   .WM@@@@ oo- ....    oo       \n"+
+"    +QWMM. oOOQ000000Q0OMMM.MMW-* : ooOooO:*+.QMQQo   OQQ*   .  \n
+
+
+         .                   W.        .    .:                  \n"+
+"      . . . .    ..   .    ..@. .    :-..   .@.     ..     .@.  \n"+
+".0@@             .. .     ...@..M   ..           .Q...   .      \n"+
+"       ..0.    ..   .:..+..& @:...:.   ..         .M@Q..:0o@W   \n"+
+"    .  .*Q&Q. W.. .     .&+.W@WW:W:.    .  ..  .Q...Q&.O@0O..   \n"+
+" .QO.QQoMQM=oO.     . ..@W&&&@&@@..WW..        . &oW:MO.0O..    \n"+
+"  ...OQWQ+.@&&.....W-WWW@@@@@@@@@@@&WWWW ...... :W@:M..  .*Q:.  \n"+
+" ..WW0-o=WM:..     ..WWW@:*&&@@M@:..-*:..W.    ..... &      ..  \n"+
+":&:.OooQ0W.*o.     ......-W:M@-MQ=. ..W.    .. ..        ...::  \n"+
+".&.  ..Q. OoQ. ...     .W..W-&WW..W        .0.     .O& .        \n"+
+"    ..  .....  .OQ..O.o.  ..QWW..  .-.    .:*.    .00:..        \n"+
+" ..O*W.      ...*Q....  ..@@.MW.  ...... .W:&   .. .=0O  ..     \n"+
+"   O+. .:.    ...O0.    .&oo=0M       . ..*+      .@@M.  .@.    \n"+
+"  .=W@       .  .MM@     :&@@...@@@@@  .:W0...   .@OQM.       . \n"+
+". ..QW-. ..WW..: :W-.   .-QQ@..@@. ..@..@:WWWWO..W&*O.          \n"+
+"   .0QW:.oW:M....:0Qo.   .W@@-:@.  .:..0.0.-0:-:@WQ-0.  . :...  \n"+
+". ...=0@&...*:O:..0*.. .  .MW@@ @OOo@..0OOM-=+.oQ-0.   .W:MW.   \n"+
+"     .*.W&.::=oo::..&..@W&..MMM.@@Q&@&.:0.o-..WW&..   .:Q:0-.   \n"+
+"     ..:+O0Q&WO&o..0.@O @WW&M:M:@@@@@.@QM-.=&oOM:M  ..@+00.. :. \n"+
+".@@. .0.:00&:&&&0&.0.@..&W*.MMQ@@@00&OQ..&&W&W.+W=&:&WW*o.  ..  \n"+
+" .   .Q..:0....o=0M QM.:.0..MQM@@WWW@@o@:.M.Q=:.::0..:.         \n"+
+"0  ...0:.ooo000 W&.0o+M&M.@ ..QM.MMM:..Q@.=@.M-@-O:.            \n"+
+"&&Q:....@OO.&&:.Q&OQMWQQ.M-&::O. WW:.&...Q:Q. +.+ *&..     ..   \n"+
+"O*QM& .....:o*:....0W.0M0....:W@@@Q@@-:.:==:..&&-..Q&@ . .     .\n"+
+".=QW.oM=*OO0+O0O.:QQW-&..QW.@M@@O..:@@W@...+-QW&oM@OW=@.W*Q.  ..\n"+
+":*-M:M:00+...:0O-OWM&M&W:WQ:&@@Q. ..Q@@@&+:O:&M:.+0.0.0-**0  .:.\n"+
+"00O+=.0o:   ..WWQ0WW::.... 0@@*M.  .:M@@W-Q-.-0.     .-*:.: ..:.\n"+
+"00.-00:.  ..W0@W..o*W&Q. .OWMMM     ..MMMM.::oo       -W0O. .&.O\n"+
+"O.OMO.    MW+WM..:MQWWW. . MM-.       Q-oM.=.Q..     .OWOO...WOO\n"+
+"O00...   0QQo.. o*:.MWW+..MMMM....   .MMMM.OO..      .OO=.. 00O:\n"+
+"0o..&W...QQ:.   =oO*..QWWMQMM.       .MMMM:::o   . .......QQ@Q:*\n"+
+":.OO00QQ....@@@W o00..-Q00WQWW@@WM=MMM..WMM .MMM@@@M@MMM ...&=-M\n
+
+
+  .                .                      .@&     .  .      :.  \n"+
+"         .      .    ..   :        :   .W&@Q             .Q     \n"+
+"   .@  .     -        =:.            .&@@**@.   .   &W          \n"+
+"  -        ..           &*     .  @o@@@Q0&M                     \n"+
+"  .    oooQW@@&@     -          .:=.&&0Q0             +  :.   &&\n"+
+"    .*+*oOOQM&@@@              +@&@@& .&@           .           \n"+
+"     +*oooO0QQWW@@     @     M@@@@@&@. .W           ..          \n"+
+"    .++o*oOQQQQ@@@         O&o&@&@&:       .=           .       \n"+
+"  .  **ooooo0OW&@   .    OWQ&W&MW@                *   @@Q@0O. * \n"+
+"       +ooooOM&:      .@++oWW=W0=      =             @@@QOoo+  .\n"+
+"                     +o**WWO*&+        @0M&    @=    :MOoooo    \n"+
+"       . =     .-M:=***QOo**+.         :&0                      \n"+
+"   &.o .       :0M****Oo**+*  .@@@@@.  @@@         .    .       \n"+
+"     o@    .  :.o=*OO0****   :@*Q@-oW..Q*M         W@:.         \n"+
+"  .. &     .:**o0O0o***o     &Q:*0=- W@&0Q         :0-.   &W.   \n"+
+"   @*   .=+****0@+o& :.     .@W0W&0O0@M.Q  .@WM@+@ @@Q          \n"+
+"  O+  :   *.*+*.=:&    .: .@*Q&OMMQ.W..W   @M&&Wo+.@M:    @  & :\n"+
+"  OQ@ :    .O&O-=0@M*oo00-*--WW*WWW&WM  0  W0QQO=@0&o  @&&&o@. .\n"+
+"+:=QW&Q0O .@.O.= .-:0M@0 QM@& ==.. .* o.-.Q0*&@Q+. .:*.: =.O@O W\n"+
+"+++   +0WOW@=+- Oo.oQO*Q+++=QQ :oOO0+&.*@W*Q-QM.o  .+++@@@ W&:W0\n"+
+"=o+.*.0Q0W*W=O0.O  =@OM@++++O*Q.W@QWWW.+=-.Oo .:*.=.++.&.&  W@O \n"+
+"OoQ+++O -&&@ oo.o OO &&0@000O@M* * +W@@0o*Q0@&&* ..-*QQ 0-Mo   0\n"+
+"+OOO. -M&&@&OOOOO O0@@&OMOOO@QM .O  WM00OO&@MWWO0.OO@&0@@M    oO\n"+
+"OOOOo0o=- .&@OOOW: &M.+O&O0O*QO WWQ--.M&OO:@M.OW@0QW.0@0MQ@W OOO\n"+
+"WW&.=0MWWW .Q@WWW -@WWOQ&W&+:. &WWW@   OWWW&O.WMWQWWW&Q0.O&M+WWW\n"+
+"MM  +oW@@@@  0@@.+=@@@ .-@@@00:@@@&@ 00-@@00*@@.+Q@@@&o-@@0Mo.&W\n"+
+"@@ +o=0@@&&0&&&&&0&@@0 -@@@0.  @@@@@O  -@@@M:&*0*+Q.@+o.@@@Q0+:@\n"+
+"@0*OoO*Q .oo0* 0WO*@@ .-@@@=. =@@..@-  -@@@o&:o0o=: QQ*0000+:0+@\n"+
+"@WO  O:= :Oo+0.::O0o@= .0&=ooo @:o-&.*oo--0OW.*o*==.00-00O.Q  .O\n"+
+"   &O0   . *O:o+ ..o0  O.     *Oo+*Oo     O:.-&&.:=W   .oo o.  .\n"+
+"**    *.        *+o   :      *=      *       =    -*o+        o:\n"+
+"                                                                \n
+
+       W                                                     @  \n"+
+"           Q0O   &                     .0@      M&@@@@@         \n"+
+"          . W             MQ@        W       QMM&&&&&@&@@@      \n"+
+"     +0 M                QQQ@@@   @@        QQQM&&&&&&&@@@@     \n"+
+"        : @W             MQQ&&  &          QQQQM&&&&&&&&&@@@  @@\n"+
+"      M O 0 M                           &&&QQQQ&&W&@@@@@W&&@    \n"+
+"        oM                      &&&@@&@     QQMQQQ&&&&&&&&&     \n"+
+"                                             QQQMMMQQ&&&&&      \n"+
+":** * *o0W *+*********WW0                      QMWMQQW&&        \n"+
+"***  :oo0************&:.-=     oo        &   o                  \n"+
+"**+*+=*************MWMM@WM+.                                    \n"+
+"  +         .    :WMMM O+MM+*           @@@                     \n"+
+"++*********+****WQMoOO0MMM*MM+W     +*QQ-&                      \n"+
+"**************OW00000      MMM *  *      *     o     &@@@&@@@   \n"+
+"*** ********oWO00000O &@   Q000O @   Q             *OOOOO*OMW&@ \n"+
+"***********W+M0MMMMWO  @   MM=MMWO0O             :o0*OOO&&+WWW@&\n"+
+"+*********W*MM   0W@@@@oOoO MMMMWM .&  =*oO***** QMQoooOWMWMMWWW\n"+
+"**+****oW*MMM +  &@@W@@&WMMMMMMMMMMM*.oOOOOOOOoooOoo0++WMMMMMQMM\n"+
+"+++***Q:W@@@@   MWMM&W&: @@WM&@@@@@@--:M=***o*+****+W0oW0WM0*:OQ\n"+
+"    W   MMM+o  W &M W@@@@oo  Q  o**: .o:0= oO==&Ooo .-...:-.  --\n"+
+"     +0 MMM+W  :  O0  MM@ 0 0 - o+*M :.-== =  M @&0**********o**\n"+
+"     *O=MMM*W     oQW0:   &@o.  o oM  ++===  O@.+:       .  =   \n"+
+" 0&&@@@&&&@&&@* *  QW:**O  *.& Q:MMW&MMQQO O- @Q & o.:@ ********\n"+
+" 0&  oWQo.& W @  * o000QQ         -M :*o*- o   @  &  -:W=-=-=+ M\n"+
+" 0& +o @ oW-W             MMoQQQ QQQ .o- 0   & o   & O&*****==.M\n"+
+" 0&   M0 @MOW &M           M+*QQQ-QQQMQ@* M-  0  oo  0&o=+oMMMWW\n"+
+" 0&OOOO00W&&W  @           M  oQW&0QQ *0   +O:QQ&&WW 0& ooOW   M\n"+
+" 0W++oOoMW&&  WW =--::-::  M  +0    +0ooOQ*WMO&&&@@  Q@ 00WWWWWW\n"+
+" O&ooMMoOM&& WW  0Q0OOO oO= Q  ooo&    +O+0W&O ooo O 0@* **&*** \n"+
+"-+-O0O+0QMMMMWWQWWWWMWWWWWWWWWW&W&W@&&WWWWW&&WW&&&@@&@:&@@@&@@@@\n"+
+"       +o*  *  o   Mo *  WW  0M    MO+.  0O-W&W   .Q * *O Qo    \n"+
+"                                    *                           \n
+
+                       :                                        \n"+
+" . @     .  W       :         .            - =                  \n"+
+"M@&&&       @                                               .   \n"+
+"W+@&@@                    &&&&&&&&&&&@                .       : \n"+
+"   .+@                  &&&&&&&&&&&&&@&@                        \n"+
+"   =@M@                @&@&&&&@&&&&&&&@M@                       \n"+
+"   o0@M&              -&&&&@@o:OO -&&&@@&:            0       Q \n"+
+"     -&@&:           &.@@.             @@:&                     \n"+
+"     O=@ Q           M+                @:*@         &        *  \n"+
+"M      @@W&        . W: .             O+ @W                     \n"+
+" .     =@W         : @@&                @@&0@                   \n"+
+"  .     Q@@&    &@&&&Q  @  .        +  @  &W@&&:               .\n"+
+"          .: O&W&&MQ  o:+O            W. 0 .@&&&&&+        =&&@&\n"+
+"       @:M -@&&&@&  -  W&:           .W &   @:M@&W&. M    0@@- +\n"+
+"       +WM o@&&@&@&&     @@  o&&&@* .&&*    @=:@@&&    .@W&&  @ \n"+
+"       0: =**@&&&@0=-&    : .&@&&@& :     &: M&&W&@& @o@@  @&&: \n"+
+"        & -*&0&@&&&.  Mo     0..:-  . .&&W  &&&&&&@@&Q O@ @  M &\n"+
+"         :..MQ&&W&Q&& - =  =        -     :.&.&&&@   Q:M- 0 &-Q \n"+
+".     M&+&MW:WO@&&@oQ-   -  -  -+  +  . @@ :@&&:  0Q@:  .00:    \n"+
+"          @WO &=WWW.Q      . 0o=*W0.&: -.@&@.0W@:- -  .&.       \n"+
+"     &&Oo:+-&Q .:=0*  :-&&&&@&&@&&O. . 0&& 0@& MWW  +. 0 0&   . \n"+
+"    :-@: oo- o-     QWMO@&&&@&&@+QQ.M && M@- 0@: *& = o :       \n"+
+"   @&&@@&.W   Q    QW00@W@&&Q-. = &@+O M& MM& =@ -..&0W&@Q      \n"+
+"  -&&&&@@@@   =*   ::QQ:WW*+= &@*0=M-.M .o W +      &&@&&&&     \n"+
+"  &&&&W@&&W0+  0    :W&&@*.&@&@&   Q:M0. -           &@&&@&@    \n"+
+" &    @W&-&0+  .     M-M*M&Q    .*                 -.&@         \n"+
+".*&0&&-:  .:   *   =  Oo&M   .&.    * + *  .O+ :  :Oo:@&&&&M    \n"+
+"&&&&&@&W@O    .     M +    M &@@&=Q=   +    &  .*:  . @&&@&&&   \n"+
+"W@@@@W@&& MO           @+&&&@&     &    +:           .  &W&     \n"+
+"=     + -0     :@&@&W= .&&&.@&.&&MO          W+.       .OWM@o.  \n"+
+"o   *=:M+&&@@@-&&&&*.&  W&W*: :.&0-           &            @@ :&\n"+
+" o++oW: =+ * **@&=.- W=OM&-Q0=:                +           M-W- \n
+
+                                                                \n"+
+"                          ..=o@*o@@@@-                          \n"+
+"                       .&@@&: &. &@@@@@@                        \n"+
+"                      .@W@&:*M&&&@O&@@@WW.                      \n"+
+"                      @@+.:Q .M   M.+ .&@@        @@0           \n"+
+"                    &.M.O    . ..-... .  @+@      Q             \n"+
+"                    WW..@      .    :@@@: @W      @             \n"+
+"                    &: Q@.        ..:-@@WWQ@@     @       :     \n"+
+"                    MMO.O+          .O@@=W+&:   .@:             \n"+
+"                   :. @@=..         :M0=@@.:W--+&@&W@@@&        \n"+
+"              .: .@. .@ *-*:    . ..M:=@.&. o0O Q@ . .O@-       \n"+
+"              .  @*  .O:MW.&@ :OWM:@@ 0o:&  W@&:=. ...Q@=       \n"+
+"               .M@+ *  .-  :@&W..@.=M0QO .@@&0&= *= M:+@.       \n"+
+"    .     .@&&.:@@@&.-    ...:o. W*  = 0M&@Q@@o=@&::.:.@.       \n"+
+"         @=@@W&o:0-o .=..   : .  .  M*O@@.:@@@Q-@@@O ..@        \n"+
+"       :&&::W@&@@  .@*00 :     :. := @:&.:@:=W@@@@@@@@@@        \n"+
+"      @W=.=:++*@@@  &0. .o..+ &@.. @&. W@:.:@&@WM=@@@@W@@o      \n"+
+"       .@=&@M -&O@ ..@. .& .  .-&0 :@.. 0  .:..:@@@@@.@@@W:     \n"+
+"      :Oo@..+O0..+..*.. Mo :   :. =+OoO0-.MQ0M@@@W @+@@@@@@     \n"+
+"      ==.WM   *@.WW . &W .   .W::WW@-*=0:..@.W@.    O@&*@@@0.   \n"+
+"     @@@@=... :WWO&  :...-M@@@@*.@@:W*@O@@@Q.  .  @. QW @@@@@   \n"+
+"    .0.  . .  .-.@@@...W..o@@@@ M&@@@@Q&&M@=@     -  :M=0-WQO   \n"+
+"    &.W&Q.. - 00@@@@&..0WO@@..WW.+-@:.....Q@*W.     MW. :-&W    \n"+
+"   .:M .Q:= ...:@@M&&-& .QM&MQW .  .&0.-&:-M& -.   :*:W&+=+&.   \n"+
+"  .o-M: .@M@@@ :.@.O+@ :*.:.. ..o ..:@M:0WQ&M*.   Q   @@W@&&0.  \n"+
+"  .:. &-@W@@@:*=WM-.&o@.W@@.. o:0    . -  .:@.     ....-W0Q=+:. \n"+
+"  =&M-@@M= :   &. .W +... .    ...@. @..-& ..M      ..:  .: @@  \n"+
+" &oW@@Q. .o = @=&W: W.. @:@@      M&..:& : 0W:    .o   = =o.:oM \n"+
+" .@+@&Q.QM.:W.:. Q@ :M= :@:&@...:   .=  +0Q:  :  .    .:. :*.-. \n"+
+"  @&*..   :..  *.:M@ .:&. &+&W.:....     .  &:oO  .   :.:.   +  \n"+
+"  .M.      . ... .:Q. . W. W.& .o.+.Q0MM-M. ::. .@&Wo .         \n"+
+"    ..   &@O. .    .. ..:Q . :M.   ..+=+o0   + o  :     -       \n
