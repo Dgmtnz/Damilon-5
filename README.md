@@ -15,27 +15,29 @@ Damilon 5 es un juego RPG espacial de "elige tu aventura" desarrollado en Java. 
 ## Sprites del juego
 
 ### Nave espacial 'Odisea'
-'                      :..  ..:.:::::::=                     
-                      &0QQQQQQQQQQQQQQQ                     
-               =      QQQ+*          QQ                     
-                0QQ00Q+  WW@@@@@@OOO ++QQ&OO                
-                QQQ+++   @@@@@@oOO++   QQ&OO                
-            =+0QQQQ+==Q  @@@OOOOO+++ 0Q++&OO                
-           &&&QQ+++ &&Q  OOO++++++++ 0Q++&oO                
-           &&&QQQ++ &&QQQ           Q++++&oo                
-       = &&0  +*+++   +    000000+  +++QQQ**                
-       = &&Q        &&&0QQQ 000      ++QQQ+*                
-        +   =+++ ++QQQQ  QQ+     QQQQo   +++                
-        +             Q=+QQ   &0Q   QQQ++                   
-              oOOQOQ:  ++  =   &&&QQ+                       
-              OOO@@@oO   +++  &&&0+++                       
-           OOO@@@@@@oo        &&&+  :                       
-        ooo@@@@@@@@OOO     +   ++                           
-        OOO@@@@@OOOO        ++                              
-      OOM*oWOOooO             +                             
-    oOOoooooOO++                                            
-    ++===MM+                                                
-      MM
+
+```ascii
+                          :..  ..:.:::::::=                     
+                          &0QQQQQQQQQQQQQQQ                     
+                   =      QQQ+*          QQ                     
+                    0QQ00Q+  WW@@@@@@OOO ++QQ&OO                
+                    QQQ+++   @@@@@@oOO++   QQ&OO                
+                =+0QQQQ+==Q  @@@OOOOO+++ 0Q++&OO                
+               &&&QQ+++ &&Q  OOO++++++++ 0Q++&oO                
+               &&&QQQ++ &&QQQ           Q++++&oo                
+           = &&0  +*+++   +    000000+  +++QQQ**                
+           = &&Q        &&&0QQQ 000      ++QQQ+*                
+            +   =+++ ++QQQQ  QQ+     QQQQo   +++                
+            +             Q=+QQ   &0Q   QQQ++                   
+                  oOOQOQ:  ++  =   &&&QQ+                       
+                  OOO@@@oO   +++  &&&0+++                       
+               OOO@@@@@@oo        &&&+  :                       
+            ooo@@@@@@@@OOO     +   ++                           
+            OOO@@@@@OOOO        ++                              
+          OOM*oWOOooO             +                             
+        oOOoooooOO++                                            
+        ++===MM+                                                
+          MM
 
 ### Líder de la Secta
   '     @    @                                               
@@ -89,7 +91,7 @@ MM@@W @@W@M&@  W@@     @W.   &*    @@W   + W    o.       M@
    .+++o+++*o+O*+++    o+      ++.   .oo+oO+**+o++++        
   +*O+OOOOOOOOOOOo@&O0            .O@@OOOOOOOOOOOOO++*      
       *******OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*******
-
+```
 ## Cómo jugar
 
 1. Ejecuta el archivo `Main.java` para iniciar el juego
