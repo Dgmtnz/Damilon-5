@@ -2,9 +2,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
-import java.util.Scanner;
 
-public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
+public class PantallaAyudarANaveDeInvestigacion extends Pantalla {
 
     private final int ALTO = 20;
     private final int ANCHO = 40;
@@ -18,13 +17,13 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
     @Override
     public void mostrarSprite() {
 
-
     }
 
     @Override
     public void mostrarOpciones() {
 
-        System.out.println("Cuando llegas a la nave de los investigadores esta todo a oscuras, pero escuchas gritos de auxilio a lo lejos, la nave es gigante y enigmatica como un laberinto. Ve a rescatar a los investigadores.");
+        System.out.println(
+                "Cuando llegas a la nave de los investigadores esta todo a oscuras, pero escuchas gritos de auxilio a lo lejos, la nave es gigante y enigmatica como un laberinto. Ve a rescatar a los investigadores.");
 
         try {
             Thread.sleep(7000);
@@ -34,15 +33,17 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
 
         new PantallaAyudarANaveDeInvestigacion().iniciar();
 
-        System.out.println("Cientifico: Muchas gracias por rescatarnos, estavamos estudiando la materia oscura y nos acermacmos demasiado al ahujero negro.");
-        
+        System.out.println(
+                "Cientifico: Muchas gracias por rescatarnos, estavamos estudiando la materia oscura y nos acermacmos demasiado al ahujero negro.");
+
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } // Pausa de 7 segundos
-        
-        System.out.println("Sacanos de aqui y te daremos nuestro ultimo invento, EltimeWarpper, con el te moveras mas rapido que nadie y siempre atacaras primero");
+
+        System.out.println(
+                "Sacanos de aqui y te daremos nuestro ultimo invento, EltimeWarpper, con el te moveras mas rapido que nadie y siempre atacaras primero");
 
         try {
             Thread.sleep(5000);
@@ -52,7 +53,8 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
         Juego.pantallaActual = new PantallaContinuarTuCamino();
 
         Main.limpiarPantalla();
-        System.out.println("Ayudas a los cientificos y los dejas en la estacion espacial mas cercana. Como prometieron te recompensan");
+        System.out.println(
+                "Ayudas a los cientificos y los dejas en la estacion espacial mas cercana. Como prometieron te recompensan");
         System.out.println("Velocidad + 100000");
         System.out.println("Continua tu viaje");
         Main.getJugador().velocidad = 100000;
@@ -61,7 +63,6 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
         } catch (InterruptedException e) {
             e.printStackTrace();
         } // Pausa de 7 segundos
-
 
     }
 
@@ -87,10 +88,18 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
         for (int direccion : direcciones) {
             int dx = 0, dy = 0;
             switch (direccion) {
-                case 1: dy = -2; break; // Arriba
-                case 2: dy = 2; break;  // Abajo
-                case 3: dx = -2; break; // Izquierda
-                case 4: dx = 2; break;  // Derecha
+                case 1:
+                    dy = -2;
+                    break; // Arriba
+                case 2:
+                    dy = 2;
+                    break; // Abajo
+                case 3:
+                    dx = -2;
+                    break; // Izquierda
+                case 4:
+                    dx = 2;
+                    break; // Derecha
             }
             int nuevoX = x + dx;
             int nuevoY = y + dy;
@@ -111,25 +120,26 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
     }
 
     public void iniciar() {
-        Scanner scanner = new Scanner(System.in);
         juegoActivo = true;
-
+        @SuppressWarnings("resource")
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
         while (juegoActivo) {
             imprimirLaberinto();
             System.out.print("Mueve tu jugador (w/a/s/d): ");
-            String movimiento = scanner.nextLine();
-
-            switch (movimiento) {
-                case "w": moverJugador(-1, 0); break;
-                case "s": moverJugador(1, 0); break;
-                case "a": moverJugador(0, -1); break;
-                case "d": moverJugador(0, 1); break;
+            String movimiento = scanner.nextLine().trim();
+            if (movimiento.length() > 0) {
+                char c = Character.toLowerCase(movimiento.charAt(0));
+                switch (c) {
+                    case 'w': moverJugador(-1, 0); break;
+                    case 's': moverJugador(1, 0); break;
+                    case 'a': moverJugador(0, -1); break;
+                    case 'd': moverJugador(0, 1); break;
+                }
             }
-
-            Main.limpiarPantalla();
-
+            if (juegoActivo) {
+                Main.limpiarPantalla();
+            }
         }
-        scanner.close();
     }
 
     private void imprimirLaberinto() {
@@ -148,6 +158,7 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
         if (nuevoX >= 0 && nuevoX < ANCHO && nuevoY >= 0 && nuevoY < ALTO) {
 
             if (laberinto[nuevoY][nuevoX] == '*') {
+                Main.limpiarPantalla();
                 System.out.println("¡Felicidades! Has encontrado la salida del laberinto.");
                 juegoActivo = false;
                 try {
@@ -165,7 +176,5 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla{
 
         }
     }
-
-
 
 }

@@ -100,7 +100,14 @@ public class PantallaBatallaForagido extends Pantalla {
 
         if (Main.getJugador().vida <= 0) {
             System.out.println("Has muerto.");
-            Juego.pantallaActual = new PantallaPuertoEspacial();
+            
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            Juego.pantallaActual = new PantallaMuerte();
             
         }else{
             System.out.println("Has vencido al foragido.");

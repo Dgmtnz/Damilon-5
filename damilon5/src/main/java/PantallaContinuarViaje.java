@@ -50,7 +50,7 @@ public class PantallaContinuarViaje extends Pantalla {
         System.out.println("3. Llamar al kevin y comprar suministros");
 
         Scanner scanner = new Scanner(System.in);
-        int opcion = scanner.nextInt();
+        int opcion = Integer.parseInt(scanner.nextLine());
         switch (opcion) {
             case 1:
 

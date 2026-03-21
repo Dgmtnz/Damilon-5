@@ -48,8 +48,13 @@ public class PantallaContinuarTuCamino extends Pantalla {
         System.out.println("1. Explorar una nebulosa cercana");
         System.out.println("2. Participar en una carrera espacial");
 
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
-        int opcion = scanner.nextInt();
+        String input = "";
+        while (input.isEmpty()) {
+            input = scanner.nextLine().trim();
+        }
+        int opcion = Integer.parseInt(input);
 
         switch (opcion) {
             case 1:

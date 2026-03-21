@@ -101,7 +101,7 @@ public class Jugador {
                     if (damage < 0) {
                         damage = 0;
                     }
-                    otro2.vida -= damage;
+                    otro.vida -= damage;
                     System.out.println("Le has quitado " + damage + " puntos de vida a " + otro.nombre);
 
                 } else if (eleccion2 == 2) {
@@ -193,7 +193,7 @@ public class Jugador {
                     if (damage < 0) {
                         damage = 0;
                     }
-                    otro2.vida -= damage;
+                    otro.vida -= damage;
                     System.out.println("Le has quitado " + damage + " puntos de vida a " + otro.nombre);
 
                 } else if (eleccion2 == 2) {

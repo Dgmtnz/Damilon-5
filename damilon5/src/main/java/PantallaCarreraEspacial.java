@@ -1,12 +1,10 @@
 import java.util.Random;
 
-import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
-
 public class PantallaCarreraEspacial extends Pantalla {
 
     private static final int WIDTH = 40;
     private static final int HEIGHT = 30;
-    private static final char SHIP_ICON = '♅';
+    private static final char SHIP_ICON = '@';
     private static final char METEORITE_ICON = '█';
     private static final char EMPTY_SPACE = ' ';
     private char[][] field = new char[HEIGHT][WIDTH];
@@ -19,54 +17,56 @@ public class PantallaCarreraEspacial extends Pantalla {
 
     @Override
     public void mostrarOpciones() {
-        try {
-            PantallaCarreraEspacial game = new PantallaCarreraEspacial();
-            com.googlecode.lanterna.terminal.Terminal terminal = new DefaultTerminalFactory().createTerminal();
+        PantallaCarreraEspacial game = new PantallaCarreraEspacial();
 
-            terminal.enterPrivateMode();
+        @SuppressWarnings("resource")
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        System.out.println("Mueve la nave con A y D para esquivar los meteoritos. ¡Buena suerte!");
+        game.renderField();
 
-            System.out.println("Mueve la nave con A y D para esquivar los meteoritos. ¡Buena suerte!");
+        while (true) {
+            System.out.println("Naves Enemigas Esquivadas: " + game.linesDodged + "/100");
+            System.out.print("Mueve (A=Izq, D=Der, ENTER=Esperar): ");
+            String input = scanner.nextLine().trim().toLowerCase();
 
-            while (true) {
-                com.googlecode.lanterna.input.KeyStroke keyStroke = terminal.pollInput();
-
-                if (keyStroke != null) {
-
-                    if (keyStroke.getCharacter() == 'a') {
-                        game.moveShipLeft();
-                    } else if (keyStroke.getCharacter() == 'd') {
-                        game.moveShipRight();
-                    }
-                }
-
-                game.advanceMeteorites();
-                if (game.checkCollision()) {
-                    System.out.println("¡Has perdido!");
-                    System.out.println("Campeon te vas al lobby");
-                Thread.sleep(8000); // Espera medio segundo
-                Juego.pantallaActual = new PantallaMuerte();
-                    break;
-                }
-
-                if (game.linesDodged++ == 100) {
-                    System.out.println("¡Has ganado, felicidades!");
-                    System.out.println("Te retiras como el rey de las carreras de naves");
-
-                Thread.sleep(8000); // Espera medio segundo
-
-                    Juego.pantallaActual = new PantallaFin();
-                    break;
-                }
-                System.out.print("\033[H\033[2J");  
-                System.out.flush();  
-                game.renderField();
-                Thread.sleep(500); // Espera medio segundo
-                
-
+            if (input.length() > 0) {
+                if (input.charAt(0) == 'a')
+                    game.moveShipLeft();
+                else if (input.charAt(0) == 'd')
+                    game.moveShipRight();
             }
 
-        } catch (Exception e) {
-            e.printStackTrace();
+            for (int i = 0; i < WIDTH; i++) {
+                if (game.field[HEIGHT - 1][i] == METEORITE_ICON) {
+                    game.linesDodged++;
+                }
+            }
+
+            game.advanceMeteorites();
+            if (game.checkCollision()) {
+                System.out.println("¡Has perdido!");
+                System.out.println("Campeon te vas al lobby");
+                try {
+                    Thread.sleep(5000);
+                } catch (Exception ex) {
+                }
+                Juego.pantallaActual = new PantallaMuerte();
+                break;
+            }
+
+            if (game.linesDodged >= 100) {
+                System.out.println("¡Has ganado, felicidades!");
+                System.out.println("Te retiras como el rey de las carreras de naves");
+                try {
+                    Thread.sleep(5000);
+                } catch (Exception ex) {
+                }
+                Juego.pantallaActual = new PantallaFin();
+                break;
+            }
+
+            Main.limpiarPantalla();
+            game.renderField();
         }
     }
 
