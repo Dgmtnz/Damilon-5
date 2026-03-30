@@ -48,7 +48,7 @@ public class PantallaBatallaHanPilladoALaBanda extends Pantalla {
     @Override
     public void mostrarOpciones() {
 
-        while (Main.getJugador().vida > 0 && (maton1.vida > 0) || (maton2.vida > 0)) {
+        while (Main.getJugador().vida > 0 && ((maton1.vida > 0) || (maton2.vida > 0))) {
             
             if(Main.getJugador().velocidad > maton1.velocidad || Main.getJugador().velocidad > maton2.velocidad){
                 

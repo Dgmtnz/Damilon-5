@@ -133,6 +133,7 @@ Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cambi
 
 Este proyecto está licenciado bajo la GNU General Public License v3.0 
 
-## Autor
+## Autores
 
-@Dgmtnz
+[@Dgmtnz](https://github.com/Dgmtnz)
+[@KevinAZ](https://github.com/KevinAZ)
