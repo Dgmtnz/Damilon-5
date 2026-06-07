@@ -4,6 +4,7 @@ public class Main {
 
     Scanner scanner = new Scanner(System.in);
     static Jugador jugador;
+    public static boolean webMode = false;
     
     
 
@@ -39,10 +40,19 @@ public class Main {
     }
 
     public void iniciarNuevaPartida() {
-        // Lógica para iniciar una nueva partida
         System.out.println("Iniciando nueva partida...");
         IntroduccionJuego.mostrarIntroduccion();
+        iniciarBucleDeJuego();
+    }
 
+    public void iniciarJuegoWeb() {
+        System.out.println("Bienvenido a Terminal Cosmos");
+        System.out.println("Iniciando nueva partida...");
+        IntroduccionJuego.mostrarIntroduccion();
+        iniciarBucleDeJuego();
+    }
+
+    private void iniciarBucleDeJuego() {
         Juego.pantallaActual = new PantallaPuertoEspacial();
         crearJugador();
         while (true) {
@@ -62,8 +72,13 @@ public class Main {
     }
 
     public static void limpiarPantalla() {
-        for (int i = 0; i < 148; i++) {
-            System.out.println();
+        if (webMode) {
+            System.out.print("\u001B[2J\u001B[1;1H");
+            System.out.flush();
+        } else {
+            for (int i = 0; i < 148; i++) {
+                System.out.println();
+            }
         }
     }
 }

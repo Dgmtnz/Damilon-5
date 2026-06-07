@@ -145,20 +145,14 @@ public class IntroduccionJuego {
         };
 
         for (int i = 0; i < imagenesAscii.length; i++) {
+            Main.limpiarPantalla();
             System.out.println(imagenesAscii[i]);
             System.out.println(textosIntroductorios[i]);
             try {
                 Thread.sleep(7000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            } // Pausa de 7 segundos
-            limpiarPantalla();
-        }
-    }
-
-    public static void limpiarPantalla() {
-        for (int i = 0; i < 148; i++) {
-            System.out.println();
+            }
         }
     }
 }

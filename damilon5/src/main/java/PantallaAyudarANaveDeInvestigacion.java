@@ -125,7 +125,7 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         while (juegoActivo) {
             imprimirLaberinto();
-            System.out.print("Mueve tu jugador (w/a/s/d): ");
+            System.out.println("Mueve tu jugador (w/a/s/d): ");
             String movimiento = scanner.nextLine().trim();
             if (movimiento.length() > 0) {
                 char c = Character.toLowerCase(movimiento.charAt(0));
@@ -143,12 +143,18 @@ public class PantallaAyudarANaveDeInvestigacion extends Pantalla {
     }
 
     private void imprimirLaberinto() {
+        StringBuilder maze = new StringBuilder(ALTO * (ANCHO + 1));
         for (int y = 0; y < laberinto.length; y++) {
             for (int x = 0; x < laberinto[y].length; x++) {
-                System.out.print(laberinto[y][x]);
+                maze.append(laberinto[y][x]);
             }
-            System.out.println();
+            if (y < laberinto.length - 1) {
+                maze.append('\n');
+            }
         }
+        System.out.print(maze);
+        System.out.println();
+        System.out.flush();
     }
 
     private void moverJugador(int deltaY, int deltaX) {

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class PantallaMuerte extends Pantalla {
 
@@ -48,7 +49,8 @@ public class PantallaMuerte extends Pantalla {
         System.out.println("¿Qué quieres hacer?");
         System.out.println("1. Volver a empezar la partida");
 
-        int opcion = Integer.parseInt(System.console().readLine());
+        Scanner scanner = new Scanner(System.in);
+        int opcion = scanner.nextInt();
 
         switch (opcion) {
             case 1:

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Damilon 5 — Terminal Cosmos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xterm/xterm@5.5.0/css/xterm.min.css">
+    <link rel="stylesheet" href="/css/terminal.css">
+</head>
+<body>
+    <header class="top-bar">
+        <h1>Damilon 5</h1>
+        <div class="top-actions">
+            <button id="reconnect-btn" type="button" class="reconnect-btn hidden">Nueva partida</button>
+            <span id="status" class="status">Conectando…</span>
+        </div>
+    </header>
+
+    <main class="game-shell">
+        <div id="terminal" class="terminal-wrap" aria-label="Terminal del juego"></div>
+    </main>
+
+    <div id="mobile-bar" class="mobile-bar hidden" aria-label="Controles táctiles">
+        <div id="choice-scroll" class="choice-scroll"></div>
+        <div id="action-row" class="action-row hidden"></div>
+        <div id="text-row" class="text-row hidden">
+            <input id="text-input" type="text" inputmode="text" autocomplete="off" placeholder="Escribe aquí…">
+            <button id="text-send" type="button">Enviar</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@xterm/xterm@5.5.0/lib/xterm.min.js"></script>
+    <script src="/js/mobile-bar.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

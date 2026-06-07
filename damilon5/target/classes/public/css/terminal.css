@@ -1,0 +1,212 @@
+:root {
+    --bg: #0b0f14;
+    --panel: #121820;
+    --accent: #3ddc97;
+    --accent-dim: #2a9d6a;
+    --text: #d8e1e8;
+    --muted: #7a8a99;
+    --chip: #1c2632;
+    --chip-border: #2f3f52;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Mono", "Fira Code", "Consolas", monospace;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 12px;
+    background: var(--panel);
+    border-bottom: 1px solid #1f2a36;
+    flex-shrink: 0;
+}
+
+.top-bar h1 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.top-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reconnect-btn {
+    height: 30px;
+    padding: 0 12px;
+    border-radius: 6px;
+    border: 1px solid var(--accent-dim);
+    background: #163528;
+    color: var(--accent);
+    font: inherit;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.reconnect-btn.hidden {
+    display: none;
+}
+
+.status {
+    font-size: 0.75rem;
+    color: var(--muted);
+}
+
+.status.connected {
+    color: var(--accent);
+}
+
+.game-shell {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.terminal-wrap {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.terminal-wrap .xterm {
+    height: 100%;
+    max-width: 100%;
+}
+
+.terminal-wrap .xterm-viewport {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.mobile-bar {
+    background: var(--panel);
+    border-top: 1px solid #1f2a36;
+    padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+    flex-shrink: 0;
+}
+
+.mobile-bar.hidden {
+    display: none;
+}
+
+.choice-scroll {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    min-height: 44px;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.choice-scroll::-webkit-scrollbar {
+    height: 4px;
+}
+
+.choice-scroll::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+
+.choice-btn {
+    flex: 0 0 auto;
+    min-width: 44px;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 999px;
+    border: 1px solid var(--chip-border);
+    background: var(--chip);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.choice-btn:active {
+    background: #243041;
+    border-color: var(--accent-dim);
+}
+
+.action-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    justify-content: center;
+    min-height: 36px;
+}
+
+.action-row.hidden,
+.text-row.hidden {
+    display: none;
+}
+
+.text-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.text-row input {
+    flex: 1;
+    min-width: 0;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--chip-border);
+    background: #0f141b;
+    color: var(--text);
+    padding: 0 10px;
+    font: inherit;
+}
+
+.text-row button {
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 8px;
+    border: 1px solid var(--accent-dim);
+    background: #163528;
+    color: var(--accent);
+    font: inherit;
+    cursor: pointer;
+}
+
+@media (min-width: 769px) and (pointer: fine) {
+    .mobile-bar {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px), (pointer: coarse) {
+    .mobile-bar:not(.hidden) {
+        display: block;
+    }
+}
