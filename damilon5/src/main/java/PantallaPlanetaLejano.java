@@ -63,15 +63,15 @@ public class PantallaPlanetaLejano extends Pantalla {
                 break;
 
             case 2:
-                Juego.pantallaActual = new PantallaContinuarViaje();
+                Juego.pantallaActual = new PantallaTecnologiaTribu();
                 break;
 
             case 3:
-                Juego.pantallaActual = new PantallaContinuarViaje();
+                Juego.pantallaActual = new PantallaObservadorTribu();
                 break;
 
             case 4:
-                Juego.pantallaActual = new PantallaContinuarViaje();
+                Juego.pantallaActual = new PantallaReabastecerYSeguir();
                 break;
 
             default:

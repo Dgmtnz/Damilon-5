@@ -77,10 +77,9 @@ public class PantallaBandaForagidos extends Pantalla{
                 break;
 
             case 2:
-                
-                Juego.pantallaActual = new PantallaBatallaForajidos();
                 System.out.println("Los forajidos no han visto tu compromiso con la banda y deciden atacarte");
-                
+                Juego.pantallaSiguiente = new PantallaPuertoEspacialSin4();
+                Juego.pantallaActual = new PantallaBatallaForajidos();
                 break;
         
             default:

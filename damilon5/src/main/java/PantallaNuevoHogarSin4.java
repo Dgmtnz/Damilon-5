@@ -115,7 +115,7 @@ public class PantallaNuevoHogarSin4 extends Pantalla {
             "                                                                \n");
             System.out.println("Encuentras una buena moza en planeta pacificongo, ahora solo te espera vivir apaciblemente y formar una familia ");
             System.out.println("FINAL DEL JUEGO, GRACIAS POR JUGAR");
-            Juego.pantallaActual = new PantallaPuertoEspacial();
+            Juego.pantallaActual = new PantallaFin();
 
             try {
                 Thread.sleep(8000);

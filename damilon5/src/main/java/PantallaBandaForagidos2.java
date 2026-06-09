@@ -51,7 +51,6 @@ public class PantallaBandaForagidos2 extends Pantalla{
         int opcion = scanner.nextInt();
         switch (opcion) {
             case 1:
-                
                 System.out.println("Has decidido realizar otra mision");
                 System.out.println("Esta vez se trata de atracar un barco mercante de la Armada Imperial");
                 System.out.println("Ten cuidado y no te metas en problemas...");
@@ -59,8 +58,9 @@ public class PantallaBandaForagidos2 extends Pantalla{
                     Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
-                } // Pausa de 7 segundos
+                }
                 Juego.pantallaAnterior = Juego.pantallaActual;
+                Juego.pantallaSiguiente = new PantallaTesoroForagido();
                 Juego.pantallaActual = new PantallaMinijuegoRobarBanco();
                 break;
 

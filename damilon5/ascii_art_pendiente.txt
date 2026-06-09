@@ -1,0 +1,383 @@
+================================================================
+PANTALLAS SIN ASCII ART REAL - DAMILON 5
+REGLA: Las imágenes muestran SOLO enemigos/NPCs/escenarios.
+       El jugador NUNCA aparece en la imagen.
+       Fondo mayoritariamente negro/oscuro para ASCII óptimo.
+================================================================
+
+
+--- FASE 3: PLANETA LEJANO ---
+
+[1] PantallaTecnologiaTribu.java
+PROMPT: A hooded alien traveler in a worn spacesuit projecting a blue holographic
+circuit board from a wrist device, surrounded by primitive alien tribal warriors
+with painted bodies and spears, gathered around a fire on an alien planet.
+Dramatic chiaroscuro lighting, the hologram casts blue light on dark faces.
+Predominantly black background, deep shadows, photorealistic sci-fi art, 4k.
+
+[2] PantallaObservadorTribu.java
+PROMPT: A primitive alien tribe performing a ritual around bonfires at night on
+an alien world, bioluminescent plants surrounding them, deep black sky full of
+stars above. No outsiders visible. Dramatic bonfire lighting, deep shadows,
+predominantly black alien night background, cinematic, 4k.
+
+[3] PantallaDiarioObservacion.java
+PROMPT: An ancient leather journal floating in deep space, its pages open and
+filled with hand-drawn sketches of alien creatures, star maps and tribal symbols,
+glowing softly with golden light. The background is pure black space with distant
+galaxies. Close-up shot, dramatic side lighting, predominantly black background,
+detailed illustration style, 4k.
+
+[4] PantallaReabastecerYSeguir.java
+PROMPT: A battered spaceship docked on an alien jungle planet, its cargo bay open
+loaded with glowing crystal minerals and bioluminescent resources. The alien jungle
+is dark around it with glowing plants. Night scene, deep black sky, dramatic light
+from the crystals and ship bay, predominantly black background, cinematic sci-fi, 4k.
+
+[5] PantallaBatallaTribuRechaza.java
+PROMPT: Three aggressive alien tribal warriors charging with bone spears and stone
+weapons raised, battle paint on their faces glowing in firelight, fierce battle cry
+expressions. Motion blur on weapons, harsh side lighting from fire, deep black
+background, no other figures visible, threatening atmosphere, 4k cinematic.
+
+
+--- FASE 4: IMPERIO GALÁCTICO ---
+
+[6] PantallaReclutamientoImperial.java
+PROMPT: An imposing imperial officer in gleaming gold and black armor standing in
+front of a massive fleet of angular imperial warships in dark space, one gauntleted
+hand extended forward in a recruitment gesture. Dramatic low key lighting, golden
+highlights, predominantly black space background with distant stars, cinematic, 4k.
+
+[7] PantallaCuartelImperial.java
+PROMPT: Interior of a massive imperial military headquarters, rows of elite
+black-armored soldiers standing at attention in a vast dark hall with imperial
+insignia on the walls, red strip lights along the floor, high ceilings lost in
+shadow. Dramatic perspective, predominantly dark interior, cinematic sci-fi, 4k.
+
+[8] PantallaMisionPatrullaFrontera.java
+PROMPT: Two sleek imperial patrol ships flying in formation through a dark red
+nebula at the edge of space, their navigation lights cutting through the gas
+clouds. Dramatic volumetric lighting, deep space background, predominantly black
+with dark red nebula accents, cinematic, 4k.
+
+[9] PantallaBatallaRebelde.java
+PROMPT: Two rebel fighters in worn tactical gear charging forward with energy
+weapons raised, aggressive expressions, firing in mid-motion. Dark space station
+platform behind them, energy bolts discharged lighting the scene with blue flashes.
+Deep black background, dramatic action pose, no other characters visible, 4k.
+
+[10] PantallaAscensoImperial.java
+PROMPT: A grand imperial general in ceremonial uniform holding a glowing star medal
+forward for presentation in a dark ceremonial hall, imperial flag hanging behind
+illuminated by spotlights. Other soldiers standing at attention in deep shadow.
+Dramatic ceremony lighting, predominantly black background, cinematic military, 4k.
+
+[11] PantallaMisionEspionaje.java
+PROMPT: A rebel base interior at night, guards patrolling a dark corridor with
+holographic data streams visible through windows, security cameras visible.
+No spy or player visible, just the enemy environment showing the danger.
+Green and blue ambient tech lighting, deep black shadows, thriller atmosphere, 4k.
+
+[12] PantallaDecisionDobleAgente.java
+PROMPT: Two massive armies facing each other across a dark abyss - on the left
+an imperial army in black and gold armor, on the right rebel fighters in worn gear,
+both sides staring each other down with weapons ready, nobody crossing the gap.
+Dramatic lighting from both sides, deep black abyss between them, 4k cinematic.
+
+[13] PantallaBatallaEspiaDescubierto.java
+PROMPT: Imperial soldiers and rebel fighters forming a threatening circle aiming
+their weapons inward at an empty center point, crossfire lighting from all their
+weapons, tense standoff. Predominantly black background, intense energy weapon
+glow, dramatic crossfire scene, no main character visible, 4k.
+
+[14] PantallaMisionSuicidaImperial.java
+PROMPT: A colossal enemy fortress bristling with defensive turrets and weapon
+emplacements on a dark alien moon, seen from below looking up. Harsh fortress
+floodlights pointing outward, menacing scale, dark alien sky above, search beams
+sweeping. Predominantly black background, overwhelming fortress presence, 4k.
+
+[15] PantallaBatallaJefeRebelde.java
+PROMPT: Admiral Drax, a massive imposing rebel commander in heavy scarred battle
+armor with a glowing red visor, standing alone in a dark command center with
+weapon raised in challenge, sparks and smoke around him from battle damage.
+Dramatic red battle lighting, dark command center, predominantly black, 4k.
+
+[16] PantallaHeroeImperial.java
+PROMPT: A towering Emperor on a dark throne, arms raised in triumphant proclamation,
+thousands of imperial soldiers visible in the vast dark throne room below watching.
+Grand imperial ceremony, golden imperial lighting from the throne, predominantly
+black space and darkness, epic scale, cinematic, 4k.
+
+[17] PantallaBatallaSoldadosImperiales.java
+PROMPT: Three black-armored imperial soldiers in aggressive combat formation,
+energy rifles raised and firing, motion blur on their movements in a dark military
+corridor. Muzzle flash lighting, sparks flying, predominantly black corridor,
+no enemy character visible, cinematic military action, 4k.
+
+
+--- FASE 5: CAZARRECOMPENSAS ---
+
+[18] PantallaOficinaCR.java
+PROMPT: A dimly lit bounty hunter office with wanted holograms floating on the
+walls showing alien criminal faces with reward amounts, a gruff female bounty
+hunter director behind a desk covered in data pads. Film noir atmosphere,
+single overhead light, predominantly black background, dark sci-fi, 4k.
+
+[19] PantallaMisionCR1.java
+PROMPT: A glowing holographic wanted poster floating in complete darkness showing
+a scruffy human criminal face with front and side mugshot views, bounty amount in
+galactic credits displayed below. The hologram is the only light source.
+Deep black background, cold blue hologram light, sci-fi aesthetic, 4k.
+
+[20] PantallaBatallaCriminalMenor.java
+PROMPT: Lix the smuggler, a scruffy human criminal in worn leather jacket, pointing
+a blaster at the viewer in a dark grimy space bar with overturned tables behind him.
+Neon signs providing colored light, alien bartender ducking behind the bar,
+predominantly black background, cyberpunk noir, no hero character, 4k.
+
+[21] PantallaMisionCR2.java
+PROMPT: A massive alien pirate ship bristling with weapons hidden inside a dark
+blood-red nebula, the ship barely visible except for its running lights and weapon
+ports glowing menacingly. Deep space, predominantly black background with dark red
+nebula, ominous atmosphere, no people visible, cinematic sci-fi, 4k.
+
+[22] PantallaBatallaCriminalPeligroso.java
+PROMPT: Korrox, a massive alien pirate captain with multiple arms and bioluminescent
+dark skin, wielding twin energy blades in an aggressive attack pose in a pirate
+ship corridor. No other character visible, dramatic energy weapon glow, dark metal
+interior background, predominantly black, threatening, 4k.
+
+[23] PantallaDilemaMoral.java
+PROMPT: A female scientist in a worn lab coat clutching a glowing data briefcase
+to her chest, standing alone in a dark alley on a space station, looking over her
+shoulder in fear. Dramatic rim lighting from behind, predominantly black background,
+moral tension atmosphere, no pursuing characters visible, 4k.
+
+[24] PantallaMisionEliteCR.java
+PROMPT: A colossal private space fortress, a rotating armed station with weapon
+turrets everywhere, floating alone in deep dark space. Ominous floodlights,
+predominantly black space, dramatic scale, menacing presence, no ships or
+characters visible, cinematic sci-fi, 4k.
+
+[25] PantallaBatallaMegacriminal.java
+PROMPT: Lord Nexus, a cybernetically enhanced crime lord in sleek black tactical
+armor with glowing red cybernetic eye implants, standing in the command center of
+his space fortress, arms crossed and looking directly at viewer in supreme
+confidence. Dramatic red and black lighting, dark command center background,
+predominantly black, no other characters, 4k.
+
+[26] PantallaMejorCRGalaxia.java
+PROMPT: A victorious bounty hunter standing alone on a space station observation
+deck, back to camera, looking out at a vast glowing galaxy through a massive window.
+Silhouette against the galaxy light, holding bounty trophies in hands at sides.
+Predominantly black space background, triumphant solitary hero moment, 4k.
+
+
+--- FASE 6: COLONIA ESPACIAL ---
+
+[27] PantallaFundarColonia.java
+PROMPT: A lone colonist ship descending through clouds to the surface of a pristine
+unexplored alien planet, green and blue alien vegetation below, twin suns setting
+on the horizon casting orange light. No people visible, just the ship. Deep black
+sky above, dramatic scale, sense of beginning, cinematic sci-fi, 4k.
+
+[28] PantallaElegirPlanetaColonia.java
+PROMPT: Three alien planets shown as floating holographic displays in a dark
+command bridge - one temperate world with green continents, one harsh volcanic
+world with red lava, one mysterious crystalline world glowing with bioluminescence.
+Dark ship interior, hologram light sources, predominantly black, no characters, 4k.
+
+[29] PantallaConstruccionColonia.java
+PROMPT: Night construction scene on an alien planet, robotic arms and automated
+machinery building prefab structures under bright floodlights, no humans visible.
+Dark alien sky with unusual constellations above. Dramatic industrial lighting,
+predominantly black alien night sky, cinematic, 4k.
+
+[30] PantallaBatallaDefensaColonia.java
+PROMPT: Space raiders approaching a small colony across a dark alien plain,
+silhouettes of armed figures advancing from the darkness, colony buildings with
+lights visible in the far background under attack. Night scene, predominantly black,
+dramatic threat approaching, no defenders visible, 4k.
+
+[31] PantallaColoniaEstablecida.java
+PROMPT: Aerial night view of a small but established space colony on an alien
+planet, dome habitats and prefab buildings glowing with warm amber and white lights
+around a central square, alien landscape dark around it. No people visible.
+Top-down perspective, predominantly black alien sky, hopeful atmosphere, 4k.
+
+[32] PantallaCrecimientoColonia.java
+PROMPT: A growing space colony at dawn on an alien planet, new buildings under
+construction in background, alien crops growing in organized fields, alien sun
+rising over distant hills in orange light. No people visible, just the colony.
+Hopeful atmosphere, dark alien sky still above, cinematic wide shot, 4k.
+
+[33] PantallaCrisisColonia.java
+PROMPT: A dark military command center holographic display showing red enemy fleet
+icons advancing on a colony marker, warning lights flashing red, emergency alerts
+on all screens. No characters visible, just the tactical display. Red emergency
+lighting in a dark room, hologram as primary light, predominantly black, 4k.
+
+[34] PantallaNegociacionColonia.java
+PROMPT: A round diplomatic table in a darkened conference room on a space station,
+three faction emblems - imperial, rebel, merchant - displayed on the table's
+central holographic galactic map. Empty chairs around it, tension in the air.
+No characters present, just the table and holograms, dark ambiance, 4k.
+
+[35] PantallaColoniaProspera.java
+PROMPT: A thriving space colony city at night on an alien world, gleaming towers
+and dome buildings lit from within, flying vehicles in the sky, alien nebula visible
+above. No people visible, just the prosperous city. Wide establishing shot,
+vibrant city lights against predominantly black alien sky, 4k.
+
+[36] PantallaBatallaInvasionColonia.java
+PROMPT: Invading warships descending in formation over a space colony in low
+atmosphere, weapons charging with red glow, colony buildings visible below,
+anti-aircraft fire streaking upward missing them. No defenders visible, just the
+overwhelming invasion force from above, dark sky, cinematic, 4k.
+
+[37] PantallaCaidaColonia.java
+PROMPT: The burning ruins of a destroyed space colony on an alien planet,
+structures collapsed and on fire, smoke rising to a dark alien sky, debris
+scattered everywhere. No people visible. Desolate and tragic atmosphere,
+fire as the only light source against the black sky, cinematic, 4k.
+
+
+--- FASE 7: ARENA GALÁCTICA ---
+
+[38] PantallaArenaGalactica.java
+PROMPT: A massive galactic gladiatorial arena at night, enormous circular stadium
+packed with thousands of alien spectators, spotlights converging on the empty dark
+sand arena floor in the center. Grand scale, dramatic stadium lights in darkness,
+predominantly black background outside the arena, epic atmosphere, no fighter
+visible yet, 4k.
+
+[39] PantallaBatallaGladiadorNovato.java
+PROMPT: Zark the rookie gladiator in basic arena armor, nervous expression, weapon
+held uncertainly, standing alone in the middle of a gladiatorial arena with the
+crowd watching in the background darkness. Arena spotlight on him, deep black
+crowd behind, no opponent visible, cinematic, 4k.
+
+[40] PantallaBatallaGladiadorExperto.java
+PROMPT: Korrath, a scarred veteran alien gladiator with 50 victories marked on
+his dark armor, in an aggressive combat stance with energy blade drawn, roaring at
+the crowd in a dark arena. Dominant presence, arena spotlight, crowd in darkness,
+no opponent visible, menacing and powerful, 4k.
+
+[41] PantallaBatallaCampeonArena.java
+PROMPT: Maximus Omega, the undefeated arena champion, a massive figure in ornate
+championship armor with glowing energy coils, raising his weapon triumphantly to a
+roaring crowd in a dark galactic arena. Champion's spotlight from above, crowd in
+shadow, no opponent, predominantly black background, epic moment, 4k.
+
+
+--- FASE 8: MERCADO NEGRO ---
+
+[42] PantallaTiendaIlegal.java
+PROMPT: A shadowy black market stall in a dark alley, tables displaying illegal
+merchandise - modified weapons, tech devices, pharmaceutical vials - under a dim
+portable lamp. No vendor or customer visible, just the forbidden goods on display.
+Predominantly black background, single lamp light source, cyberpunk noir, 4k.
+
+[43] PantallaContrabandistaHub.java
+PROMPT: Reto Voss, a weathered smuggler in a long dark coat, leaning alone against
+a sleek fast smuggling ship in a dimly lit private hangar, arms crossed, calculating
+expression. No other characters. Single overhead light, mostly dark hangar,
+predominantly black background, film noir space smuggler, 4k.
+
+[44] PantallaMisionPasarAduana.java
+PROMPT: Two armored imperial customs guards at a checkpoint gate scanning a
+suspicious sealed crate with handheld sensors, red warning light above the gate.
+No smuggler or pilot visible, just the guards and the suspicious cargo. Harsh white
+checkpoint lights in dark corridor, predominantly black, tense, 4k.
+
+[45] PantallaBatallaAduana.java
+PROMPT: Two imperial checkpoint guards in full armor firing energy weapons down a
+dark space port loading bay, cargo containers providing cover between them, energy
+bolts visible in the air. Muzzle flashes as primary lighting, no target visible,
+predominantly black industrial interior, intense action, 4k.
+
+[46] PantallaMisionRivalContrabandista.java
+PROMPT: A hollowed asteroid serving as a secret smuggler base, antenna arrays and
+docking clamps visible on the rocky surface, dim lights through viewport windows,
+a smuggling ship docked alongside. Deep black space background, asteroid barely
+visible, mysterious isolated atmosphere, no people, cinematic, 4k.
+
+[47] PantallaBatallaRivalContrabandista.java
+PROMPT: Drax the rival smuggler in aggressive stance in a cramped asteroid base
+corridor, energy pistol aimed forward at the viewer, crates of contraband behind
+him. No other character visible, dim industrial lighting, sparks and smoke,
+predominantly dark corridor, threatening pose, 4k.
+
+[48] PantallaJefeMercadoNegro.java
+PROMPT: Shadow the black market kingpin, a cloaked hooded mysterious figure sitting
+on a throne-like chair in complete darkness, only a single narrow beam of light
+from above illuminating them partially, face hidden in shadow, absolute power.
+Extreme chiaroscuro, deep black background, only light is the single beam, 4k.
+
+
+--- FASE 9: FUGA DE LA CÁRCEL ---
+
+[49] PantallaPlanFuga.java
+PROMPT: A dark empty prison cell with bars casting shadows, a crude hand-drawn
+escape map scratched into the stone wall, a small hidden torch burned down to a
+stub nearby. No person visible, just the evidence of planning. Minimal light,
+profound darkness beyond the cell, tense atmosphere, predominantly black, 4k.
+
+[50] PantallaMinijuegoFuga.java
+PROMPT: The inside of a dark ventilation duct looking forward, industrial metal
+walls, dust particles floating in a faint light coming from a distant opening.
+No person visible, just the duct and the distant exit light. Claustrophobic
+perspective, predominantly black, industrial texture, 4k.
+
+[51] PantallaBatallaGuardianesFuga.java
+PROMPT: Two prison guards in heavy armor running down a dark emergency stairwell
+of a space station, red alarm lights flashing, weapons drawn and raised. No escaped
+prisoner visible, just the guards on pursuit. Dynamic motion, emergency red lighting,
+predominantly dark industrial background, intense, 4k.
+
+
+--- FASE 10: COPILOTO ---
+
+[52] PantallaBuscarCopiloto.java
+PROMPT: A holographic bulletin board in a dark spaceport showing three floating
+candidate profile cards - a military pilot, a female scientist, a jovial merchant -
+each with name, photo and stats. Dark spaceport with neon signs behind it, ships
+visible. No viewer visible, just the holographic board, 4k.
+
+[53] PantallaCopilotoMilitar.java
+PROMPT: Rex Orion, a stern battle-scarred ex-military pilot in dark tactical
+flight suit, seated in a spacecraft copilot seat with space visible through
+cockpit window, hands ready on controls. Professional expression, dramatic cockpit
+lighting, predominantly dark space background, no pilot in adjacent seat, 4k.
+
+[54] PantallaCopilotoCientifico.java
+PROMPT: Dr. Lyra Nexon, an enthusiastic female scientist in a light flight suit,
+studying holographic navigation data in a spacecraft cockpit alone, a stunning
+uncharted nebula visible through the window. Excited expression, holographic data
+light on her face, predominantly dark space background, no other person, 4k.
+
+[55] PantallaCopilotoKevin.java
+PROMPT: Kevin, an enthusiastic chubby civilian shopkeeper in regular clothes
+awkwardly seated in a spacecraft copilot seat, pressing his face against the
+cockpit window staring at space in pure wonder, surrounded by boxes of supplies.
+Comedic but charming expression, spacecraft interior lighting, dark space outside,
+no pilot seat visible, 4k.
+
+
+--- FASE 12: TESORO FORAJIDOS ---
+
+[56] PantallaTesoroForagido.java
+PROMPT: An open high-tech space vault interior, floor covered in scattered credit
+ingots, glowing jewels and rare minerals, vault lights illuminating the riches.
+No people visible, just the open vault overflowing with wealth. Vault lights as
+only source, deep black vault interior, triumphant heist aftermath, 4k.
+
+
+================================================================
+PANTALLAS CON ARTE EXISTENTE (referencia del estilo visual):
+- PantallaPuertoEspacial: nave espacial desde arriba, estilo denso
+- PantallaBatallaTribuSeRevela: guerreros tribales, fondo oscuro
+- PantallaFugitivo: personaje de espaldas, paisaje espacial
+- PantallaContinuarViaje: planeta con atmósfera vista desde espacio
+================================================================

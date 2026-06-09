@@ -47,6 +47,7 @@ public class PantallaContinuarTuCamino extends Pantalla {
     
         System.out.println("1. Explorar una nebulosa cercana");
         System.out.println("2. Participar en una carrera espacial");
+        System.out.println("3. Visitar el Casino Orbital XVII de la estacion");
 
         @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
@@ -82,6 +83,12 @@ public class PantallaContinuarTuCamino extends Pantalla {
 
                 break;
         
+            case 3:
+                System.out.println("Entras al casino de la estacion. Las luces de neon te reciben.");
+                try { Thread.sleep(2000); } catch (InterruptedException e) { e.printStackTrace(); }
+                Juego.pantallaActual = new PantallaCasinoGalactico();
+                break;
+
             default:
                 break;
         }

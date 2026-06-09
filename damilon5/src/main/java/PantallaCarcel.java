@@ -46,32 +46,59 @@ public class PantallaCarcel extends Pantalla{
 
     @Override
     public void mostrarOpciones() {
-            System.out.println("ESTAS EN LA CARCEL POR TERRORISMO ESPACIAL");
-            System.out.println("TE ESPERAN 10 AÑOS DE MOSCA FLITUVIANA");
-            try {
-                Thread.sleep(7000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } // Pausa de 7 segundos
-        Main.limpiarPantalla();
-        System.out.println("Tu turno ha llegado, sales de la carcel, ahora eres mas viejo y debil");
-        if (Main.getJugador().inversionBTC) {
+        System.out.println("ESTAS EN LA CARCEL POR TERRORISMO ESPACIAL");
+        System.out.println("TE ESPERAN 10 AÑOS DE MOSCA FLITUVIANA");
+        System.out.println("");
+        System.out.println("Opciones:");
+        System.out.println("1. Cumplir condena (10 años)");
+        System.out.println("2. Planear una fuga");
 
-            System.out.println("Invertiste en BTC y te has hecho rico mientras estabas en prision, felicidades");
-            Main.getJugador().dinero = 1000000000;
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        int opcion = scanner.nextInt();
+
+        switch (opcion) {
+            case 1:
+                try {
+                    Thread.sleep(7000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                Main.limpiarPantalla();
+                System.out.println("Tu turno ha llegado, sales de la carcel, ahora eres mas viejo y debil");
+                if (Main.getJugador().inversionBTC) {
+                    System.out.println("Invertiste en BTC y te has hecho rico mientras estabas en prision, felicidades");
+                    Main.getJugador().dinero = 1000000000;
+                } else {
+                    Main.getJugador().dinero = 500;
+                }
+                Main.getJugador().vidaMax -= 5;
+                Main.getJugador().nivel -= 2;
+                Main.getJugador().vida = Main.getJugador().vidaMax;
+                Main.getJugador().arma = 0;
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                Juego.pantallaActual = new PantallaPuertoEspacialSin4();
+                break;
+
+            case 2:
+                Main.limpiarPantalla();
+                System.out.println("Empiezas a observar los turnos de guardia y planear tu escape...");
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                Juego.pantallaActual = new PantallaPlanFuga();
+                break;
+
+            default:
+                System.out.println("Opción inválida");
+                mostrarOpciones();
+                break;
         }
-        Main.getJugador().dinero = 500;
-        Main.getJugador().vidaMax -= 5;
-        Main.getJugador().nivel -=2;
-        Main.getJugador().vida = Main.getJugador().vidaMax;
-        Main.getJugador().arma = 0;
-        Juego.pantallaActual = new PantallaPuertoEspacialSin4();
-        try {
-            Thread.sleep(7000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } // Pausa de 7 segundos
-
     }
 
 }

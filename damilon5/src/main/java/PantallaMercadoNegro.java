@@ -3,6 +3,13 @@ import java.util.Scanner;
 
 public class PantallaMercadoNegro extends Pantalla {
 
+    // Capture the screen we came from at construction time, before pantallaAnterior can be overwritten
+    private final Pantalla pantallaOrigen;
+
+    public PantallaMercadoNegro() {
+        this.pantallaOrigen = Juego.pantallaActual;
+    }
+
     @Override
     public void mostrarSprite() {
 
@@ -44,48 +51,58 @@ public class PantallaMercadoNegro extends Pantalla {
     @Override
     public void mostrarOpciones() {
 
-
         System.out.println("Ante todo no nos hemos visto, ¿Que necesitas?");
-        System.out.println("1. Comprar");
+        System.out.println("1. Comprar material ilegal");
+        System.out.println("2. Hablar con el contrabandista");
         System.out.println("9. Salir");
         System.out.println("Elige una opción: ");
 
         Scanner scanner = new Scanner(System.in);
         int opcion = scanner.nextInt();
         Random random = new Random();
-        
 
         switch (opcion) {
-            
+
+            case 1:
+                Juego.pantallaAnterior = Juego.pantallaActual;
+                Juego.pantallaActual = new PantallaTiendaIlegal();
+                break;
+
+            case 2:
+                Juego.pantallaActual = new PantallaContrabandistaHub();
+                break;
+
             case 9:
                 System.out.println("Anda vete por ahi facking pobre, no vuelvas sin mas perras!!");
-                
-                if (random.nextInt(1,11)>1) {
+
+                // 20% chance of thug encounter; pantallaOrigen ensures we return to where we
+                // came from (not back to the market if pantallaAnterior was overwritten by case 1)
+                if (random.nextInt(1, 11) > 8) {
 
                     System.out.println("A unos tipos sospechosos no les ha gustado tu apariencia");
                     System.out.println("Van a darte una paliza");
 
-                    Juego.pantallaSiguiente = Juego.pantallaAnterior;
+                    Juego.pantallaSiguiente = pantallaOrigen;
                     Juego.pantallaActual = new PantallaBatallaMatones();
 
                     try {
                         Thread.sleep(2500);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
-                    } // Pausa de 7 segundos
-                    
-                }else{
-                Juego.pantallaActual = Juego.pantallaAnterior;
-                try {
-                    Thread.sleep(3500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } // Pausa de 7 segundos
+                    }
+
+                } else {
+                    Juego.pantallaActual = pantallaOrigen;
+                    try {
+                        Thread.sleep(3500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
             break;
-    
+
         default:
-        System.out.println("Opción no válida, mamón");
+            System.out.println("Opción no válida, mamón");
             mostrarOpciones();
             break;
         }

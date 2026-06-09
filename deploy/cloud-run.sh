@@ -19,6 +19,7 @@ gcloud run deploy "${SERVICE_NAME}" \
   --timeout 3600 \
   --session-affinity \
   --min-instances 0 \
+  --concurrency 1 \
   --port 8080
 
 echo "Despliegue completado."

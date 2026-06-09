@@ -61,7 +61,7 @@ public class PantallaCarreraEspacial extends Pantalla {
                     Thread.sleep(5000);
                 } catch (Exception ex) {
                 }
-                Juego.pantallaActual = new PantallaFin();
+                Juego.pantallaActual = Juego.pantallaSiguiente != null ? Juego.pantallaSiguiente : new PantallaFin();
                 break;
             }
 

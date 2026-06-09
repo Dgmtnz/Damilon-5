@@ -49,6 +49,7 @@ public class PantallaPistaDeDespegue extends Pantalla {
         System.out.println("Opciones:");
         System.out.println("1. Ayudar a la autoridad");
         System.out.println("2. Ignorar la advertencia");
+        System.out.println("3. Rechazar a todos y buscar un copiloto en cambio");
 
         int opcion = 0;
         Scanner scanner = new Scanner(System.in);
@@ -167,12 +168,23 @@ public class PantallaPistaDeDespegue extends Pantalla {
                 break;
             
 
+            case 3:
+                Main.limpiarPantalla();
+                System.out.println("Decides descartar a los pasajeros y buscar un buen copiloto en su lugar.");
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                Juego.pantallaActual = new PantallaBuscarCopiloto();
+                break;
+
             default:
                 System.out.println("Opción inválida");
                 break;
         }
-        
+
 
     }
-    
+
 }

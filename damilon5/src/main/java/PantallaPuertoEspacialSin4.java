@@ -51,7 +51,8 @@ public class PantallaPuertoEspacialSin4 extends Pantalla {
                 System.out.println("1. Explorar el mercado negro de Damilon ");
                 System.out.println("2. Comerciar en la estacion");
                 System.out.println("3. Partir hacia un planeta cercano");
-            
+                System.out.println("4. Fundar una Colonia Espacial");
+
                 int opcion = 0;
                 Scanner scanner = new Scanner(System.in);
                 opcion = scanner.nextInt();
@@ -65,10 +66,10 @@ public class PantallaPuertoEspacialSin4 extends Pantalla {
                     Juego.pantallaAnterior = Juego.pantallaActual;
                     Juego.pantallaActual = new PantallaTiendaDeKevin();
                     Main.limpiarPantalla();
-    
+
                     break;
                 case 3:
-    
+
                     System.out.println("Has elegido la opción 3: Partir hacia un planeta lejano.");
                     Main.limpiarPantalla();
                     System.out.println("Con la nave en piloto automatico, vagas sin rumbo por el espacio, sin saber a dónde vas.");
@@ -80,10 +81,15 @@ public class PantallaPuertoEspacialSin4 extends Pantalla {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     } // Pausa de 7 segundos
-    
-    
+
+
                     break;
-                    
+
+                case 4:
+                    Juego.pantallaActual = new PantallaFundarColonia();
+                    Main.limpiarPantalla();
+                    break;
+
                     default:
                         System.out.println("Opción no válida");
                         break;

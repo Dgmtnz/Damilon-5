@@ -51,6 +51,9 @@ public class PantallaPuertoEspacial extends Pantalla{
         System.out.println("2. Comerciar en la estacion");
         System.out.println("3. Partir hacia un planeta lejano");
         System.out.println("4. Buscar pasajeros ");
+        System.out.println("5. Unirse al Imperio Galáctico");
+        System.out.println("6. Oficina de Cazarrecompensas");
+        System.out.println("7. Arena Galáctica");
         int opcion = 0;
         Scanner scanner = new Scanner(System.in);
         opcion = scanner.nextInt();
@@ -83,16 +86,31 @@ public class PantallaPuertoEspacial extends Pantalla{
 
                 break;
             case 4:
-            
+
                 Juego.pantallaActual = new PantallaPistaDeDespegue();
                 Main.limpiarPantalla();
                 break;
-            
+
+            case 5:
+                Juego.pantallaActual = new PantallaReclutamientoImperial();
+                Main.limpiarPantalla();
+                break;
+
+            case 6:
+                Juego.pantallaActual = new PantallaOficinaCR();
+                Main.limpiarPantalla();
+                break;
+
+            case 7:
+                Juego.pantallaActual = new PantallaArenaGalactica();
+                Main.limpiarPantalla();
+                break;
+
             default:
                 System.out.println("Opción no válida");
                 break;
-        
-        
+
+
         }
        
 
